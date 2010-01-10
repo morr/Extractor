@@ -12,25 +12,21 @@ namespace TestTask
     private Stack<string> _parse_stack;
     private string _tokenStart;
 
-    public TextParser()
+    public TextParser(List<Token> tokens)
     {
-      this._tokens = new List<Token>();
+      this._tokens = tokens;
       this._parsed_data = new List<Token>();
       this._parse_stack = new Stack<String>();
 
       this._tokenStart = "";
+      foreach (Token token in this._tokens)
+        this._tokenStart += this._tokenStart.Length == 0 ? token.start : "|" + token.start;
     }
 
     public List<Token> Process(String data)
     {
       this.Parse(data, 0);
       return this._parsed_data;
-    }
-
-    public void AddToken(Token token)
-    {
-      this._tokens.Add(token);
-      this._tokenStart += this._tokenStart.Length == 0 ? token.start : "|" + token.start;
     }
 
     private int Parse(string text, int position)
@@ -44,31 +40,40 @@ namespace TestTask
         return -1;
 
       int start = match.Index;
-      // return if token end is found
+      // return if token's end is found
       if (this._parse_stack.Count != 0 && String.Compare(match.Value, this._parse_stack.Peek(), true) == 0)
       {
         this._parse_stack.Pop();
         return start;
       }
 
+      // build new token
       Token token = this.BuildToken(match.Value);
-      // find token end
+      token.ProcessAttributes(match.Value);
+
+      // find token's end
       int end;
-      if (!token.skippable)
+      if (token.end != "")
       {
         this._parse_stack.Push(token.end);
 
-        end = this.Parse(text, start + match.Value.Length);
+        // process tokens inside this token
+        if (!token.skippable)
+          end = this.Parse(text, start + match.Value.Length);
+        // or just find token's end
+        else
+          end = token.endRegex.Match(text, start).Index;
         if (end == -1)
           return -1;
 
-        token.innerHTML = text.Substring(start + match.Value.Length, end - start - match.Value.Length);
-        this._parsed_data.Add(token);
-        Console.WriteLine("matched: {0}\n  url: {1}\n  innerHTML: {2}\n", match.Value, token.url, token.innerHTML);
+        token.ProcessInnerHTML(text.Substring(start + match.Value.Length, end - start - match.Value.Length));
       }
-      // or skip token content
       else
-        end = token.endRegex.Match(text, start).Index;
+        end = start + match.Value.Length - 1;
+
+      // add token    
+      if( token.url != "" )
+        this._parsed_data.Add(token);
 
       // find next tokens
       int stack_size;
@@ -87,7 +92,6 @@ namespace TestTask
         if (token.startRegex.IsMatch(text))
         {
           Token tag = (Token)token.Clone();
-          tag.url = text;
           return tag;
         }
 

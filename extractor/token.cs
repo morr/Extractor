@@ -3,16 +3,6 @@ using System.Text.RegularExpressions;
 
 namespace TestTask
 {
-  public enum TagZone
-  {
-    local, remote
-  }
-
-  public enum TagType
-  {
-    page, image, css, script
-  }
-
   public abstract class Token : ICloneable
   {
     protected string _start;
@@ -47,31 +37,28 @@ namespace TestTask
       get { return this._endRegex; }
     }
 
-    protected TagZone _zone;
-    protected TagType _type;
+    protected string _zone;
+    public string zone
+    {
+      get { return this._zone; }
+      set { this._zone = value; }
+    }
+    protected string _type;
+    public string type
+    {
+      get { return this._type; }
+    }
 
     protected string _url;
     public string url
     {
       get { return this._url; }
-      set
-      {
-        Match match = Regex.Match(value, @"(?:href=|src=)(?:""(?<url>[^""]*)""|'(?<url>[^']*)'|(?<url>[^""'> ]*))", RegexOptions.IgnoreCase);
-        if (match.Success)
-          this._url = match.Groups["url"].Value;
-        else
-          this._url = value;
-      }
     }
 
     protected string _innerHTML;
     public string innerHTML
     {
       get { return this._innerHTML; }
-      set
-      {
-        this._innerHTML = Regex.Replace(value, @"<(?:""[^""]*""|'[^']*'|[^""'>])*>", "");
-      }
     }
 
     protected bool _skippable;
@@ -82,39 +69,32 @@ namespace TestTask
 
     public Token()
     {
+      this.end = "";
+      this._innerHTML = "";
       this._skippable = false;
+      this.start = "";
+      this._type = "";
+      this._url = "";
+      this._zone = "";
     }
 
-    abstract public Object Clone();
-  }
-
-
-  public class TokenA : Token
-  {
-    public TokenA()
+    public virtual void ProcessAttributes(string value)
     {
-      this.start = @"<a\b(?:""[^""]*""|'[^']*'|[^""'>])*>";
-      this.end = @"</a>";
+      Match match = Regex.Match(value, @"(?:href=|src=)(?:""(?<url>[^""]*)""|'(?<url>[^']*)'|(?<url>[^""'> ]*))", RegexOptions.IgnoreCase);
+      if (match.Success)
+        this._url = match.Groups["url"].Value;
     }
 
-    public override Object Clone()
+    public virtual void ProcessInnerHTML(string value)
     {
-      return new TokenA();
-    }
-  }
-
-  public class TokenComment : Token
-  {
-    public TokenComment()
-    {
-      this.start = @"<!--";
-      this.end = @"-->";
-      this._skippable = true;
+      this._innerHTML = Regex.Replace(value, @"<(?:""[^""]*""|'[^']*'|[^""'>])*>", "");
     }
 
-    public override Object Clone()
+    public virtual string ToString()
     {
-      return new TokenComment();
+      return this._type+" "+this._zone+" "+this._url+" "+this._innerHTML;
     }
+
+    public abstract Object Clone();
   }
 }

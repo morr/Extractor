@@ -50,6 +50,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="text_parser.cs" />
     <Compile Include="token.cs" />
+    <Compile Include="Tokens\a.cs" />
+    <Compile Include="Tokens\area.cs" />
+    <Compile Include="Tokens\comment.cs" />
+    <Compile Include="Tokens\embed.cs" />
+    <Compile Include="Tokens\img.cs" />
+    <Compile Include="Tokens\link.cs" />
+    <Compile Include="Tokens\script.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

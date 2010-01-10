@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace TestTask
@@ -21,8 +22,6 @@ namespace TestTask
       Extractor extractor = new Extractor(args[0], args[1]);
       extractor.Run();
 
-      Console.WriteLine("");
-      Console.WriteLine("done");
       Console.ReadKey();
     }
   }
