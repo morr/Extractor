@@ -1,277 +1,268 @@
 ﻿http://zenzone.ru
-http://ya.ru
-    css remote http://img.yandex.net/i/favicon.ico 
-    page remote http://help.yandex.ru/start/ Сделать стартовой
-    page remote http://mail.yandex.ru Войти в почту
-    image local http://ya.ru/logo.png 
-    page remote http://www.yandex.ru 
-    page remote http://www.yandex.ru Яндекс
-    page remote http://www.artlebedev.ru Студия Артемия Лебедева
-http://zenzone.ru
-    css remote i/st.css 
-    script remote i/scr.js 
-    image remote i/logo.jpg 
+    css local i/st.css 
+    script local i/scr.js 
+    image local i/logo.jpg 
     image local http://www.zenzone.ru/f/main_imgs/25322974812_3 kopijal.jpg 
-    page remote shoping.htm пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page remote about.htm пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page remote shops.htm пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/contacts.htm пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page remote /phorum/ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/luxury_world/page_1.htm пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page remote /articles/article_123.htm FAQ
-    image remote i/ichome.gif 
-    page remote ../ 
-    image remote i/iccont.gif 
-    page remote contacts.htm 
-    image remote i/icmap.gif 
-    page remote map.htm 
-    image remote i/basket.gif 
-    page local http://www.zenzone.ru/basket.htm пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/furth.gif 
-    page remote basket.htm 
-    page local http://www.zenzone.ru/register.htm пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page remote http://deluxe.zenzone.ru/ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark_elite.gif 
+    page local shoping.htm КАК СДЕЛАТЬ ПОКУПКУ
+    page local about.htm О МАГАЗИНЕ
+    page local shops.htm АДРЕСА МАГАЗИНОВ
+    page local http://www.zenzone.ru/contacts.htm КОНТАКТЫ
+    page local /phorum/ ОБРАТНАЯ СВЯЗЬ
+    page local http://www.zenzone.ru/luxury_world/page_1.htm МИР РОСКОШИ
+    page local /articles/article_123.htm FAQ
+    image local i/ichome.gif 
+    page local ../ 
+    image local i/iccont.gif 
+    page local contacts.htm 
+    image local i/icmap.gif 
+    page local map.htm 
+    image local i/basket.gif 
+    page local http://www.zenzone.ru/basket.htm Оформить покупку
+    image local i/furth.gif 
+    page local basket.htm 
+    page local http://www.zenzone.ru/register.htm регистрация
+    page remote http://deluxe.zenzone.ru/ Элитные украшения
+    image local i/mnumark_elite.gif 
     page remote http://deluxe.zenzone.ru/?goto=extravaganza Extravaganza collection
-    image remote i/mnumark_elite.gif 
+    image local i/mnumark_elite.gif 
     page remote http://deluxe.zenzone.ru/?goto=versailles Versailles collection
-    image remote i/mnumark_elite.gif 
+    image local i/mnumark_elite.gif 
     page remote http://deluxe.zenzone.ru/?goto=vintage Vintage collection
-    image remote i/mnumark_elite.gif 
+    image local i/mnumark_elite.gif 
     page remote http://deluxe.zenzone.ru/?goto=luxury Luxury silver
-    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=2&f_date=2009-12-17 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%E5%F0%FC%E3%E8&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%E5%F0%FC%E3%E8+%2B+%EF%EE%E4%E2%E5%F1%EA%E0&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅ + пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%F6%E0&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%F6%EE+%2B+%F1%E5%F0%FC%E3%E8&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅ + пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%E0%F1%EB%E5%F2%FB&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%E5&f_group_id=2 пїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%E5+%2B+%F1%E5%F0%FC%E3%E8&f_group_id=2 пїЅпїЅпїЅпїЅпїЅ + пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CF%EE%E4%E2%E5%F1%EA%E8&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CF%EE%E4%E2%E5%F1%EA%E0+%2B+%EA%EE%EB%FC%F6%EE&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ + пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%EE%F8%E8&f_group_id=2 пїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D6%E5%EF%EE%F7%EA%E8&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F3%F1%FB&f_group_id=2 пїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D7%E0%F1%FB&f_group_id=2 пїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C7%E0%EF%EE%ED%EA%E8&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C7%E0%E6%E8%EC%FB+%E4%EB%FF+%E3%E0%EB%F1%F2%F3%EA%EE%E2&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%F3%E2%E5%ED%E8%F0%FB+%E8+%EF%EE%F1%F3%E4%E0&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D8%ED%F3%F0%EA%E8&f_group_id=2 пїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=3 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=3&f_date=2009-12-17 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%E5%F0%FC%E3%E8&f_group_id=3 пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%F6%E0&f_group_id=3 пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%E0%F1%EB%E5%F2%FB&f_group_id=3 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%E5&f_group_id=3 пїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CF%EE%E4%E2%E5%F1%EA%E8&f_group_id=3 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D6%E5%EF%EE%F7%EA%E8&f_group_id=3 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C7%E0%EF%EE%ED%EA%E8+%E8+%E7%E0%E6%E8%EC%FB&f_group_id=3 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D8%ED%F3%F0%EA%E8&f_group_id=3 пїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=8 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%F0%E5%F1%F2%FB+%E8+%E8%EA%EE%ED%FB&f_group_id=8 пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=6 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EB%E0%F1%F1%E8%F7%E5%F1%EA%E8%E9+%EF%E8%F0%F1%E8%ED%E3&f_group_id=6 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D4%E8%E3%F3%F0%ED%FB%E9+%EF%E8%F0%F1%E8%ED%E3&f_group_id=6 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=4 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C0%EC%F3%EB%E5%F2%FB&f_group_id=4 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%E0%F1%EB%E5%F2%FB&f_group_id=4 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F3%F1%FB&f_group_id=4 пїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D8%ED%F3%F0%EA%E8&f_group_id=4 пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D0%E0%E7%ED%EE%E5&f_group_id=4 пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=2 ИЗДЕЛИЯ ИЗ СЕРЕБРА
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=2&f_date=2009-12-17 НОВИНКИ
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%E5%F0%FC%E3%E8&f_group_id=2 Серьги
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%E5%F0%FC%E3%E8+%2B+%EF%EE%E4%E2%E5%F1%EA%E0&f_group_id=2 Серьги + подвеска
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%F6%E0&f_group_id=2 Кольца
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%F6%EE+%2B+%F1%E5%F0%FC%E3%E8&f_group_id=2 Кольцо + серьги
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%E0%F1%EB%E5%F2%FB&f_group_id=2 Браслеты
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%E5&f_group_id=2 Колье
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%E5+%2B+%F1%E5%F0%FC%E3%E8&f_group_id=2 Колье + серьги
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CF%EE%E4%E2%E5%F1%EA%E8&f_group_id=2 Подвески
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CF%EE%E4%E2%E5%F1%EA%E0+%2B+%EA%EE%EB%FC%F6%EE&f_group_id=2 Подвеска + кольцо
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%EE%F8%E8&f_group_id=2 Броши
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D6%E5%EF%EE%F7%EA%E8&f_group_id=2 Цепочки
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F3%F1%FB&f_group_id=2 Бусы
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D7%E0%F1%FB&f_group_id=2 Часы
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C7%E0%EF%EE%ED%EA%E8&f_group_id=2 Запонки
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C7%E0%E6%E8%EC%FB+%E4%EB%FF+%E3%E0%EB%F1%F2%F3%EA%EE%E2&f_group_id=2 Зажимы для галстуков
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%F3%E2%E5%ED%E8%F0%FB+%E8+%EF%EE%F1%F3%E4%E0&f_group_id=2 Сувениры и посуда
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D8%ED%F3%F0%EA%E8&f_group_id=2 Шнурки
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=3 ИЗДЕЛИЯ ИЗ СТАЛИ
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=3&f_date=2009-12-17 НОВИНКИ
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%E5%F0%FC%E3%E8&f_group_id=3 Серьги
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%F6%E0&f_group_id=3 Кольца
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%E0%F1%EB%E5%F2%FB&f_group_id=3 Браслеты
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%E5&f_group_id=3 Колье
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CF%EE%E4%E2%E5%F1%EA%E8&f_group_id=3 Подвески
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D6%E5%EF%EE%F7%EA%E8&f_group_id=3 Цепочки
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C7%E0%EF%EE%ED%EA%E8+%E8+%E7%E0%E6%E8%EC%FB&f_group_id=3 Запонки и зажимы
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D8%ED%F3%F0%EA%E8&f_group_id=3 Шнурки
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=8 ИЗДЕЛИЯ ИЗ ЗОЛОТА
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%F0%E5%F1%F2%FB+%E8+%E8%EA%EE%ED%FB&f_group_id=8 Кресты и иконы
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=6 ПИРСИНГ
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EB%E0%F1%F1%E8%F7%E5%F1%EA%E8%E9+%EF%E8%F0%F1%E8%ED%E3&f_group_id=6 Классический пирсинг
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D4%E8%E3%F3%F0%ED%FB%E9+%EF%E8%F0%F1%E8%ED%E3&f_group_id=6 Фигурный пирсинг
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=4 УКРАШЕНИЯ ИЗ ДРУГИХ МАТЕРИАЛОВ
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C0%EC%F3%EB%E5%F2%FB&f_group_id=4 Амулеты
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%E0%F1%EB%E5%F2%FB&f_group_id=4 Браслеты
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F3%F1%FB&f_group_id=4 Бусы
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D8%ED%F3%F0%EA%E8&f_group_id=4 Шнурки
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D0%E0%E7%ED%EE%E5&f_group_id=4 Разное
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=42&menu=1 Bali collection
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=29&menu=1 Casual style
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=73&menu=1 Circle of life
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=49&menu=1 Classical collection
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=61&menu=1 Cubism collection
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=41&menu=1 Diamond and silver collection
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=35&menu=1 Energy
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=44&menu=1 Epatage collection
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=70&menu=1 Ethno Chic
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=56&menu=1 For men
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=51&menu=1 Fresh wind of freedom- Ethnic collection
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=58&menu=1 Gothic & Rock collection
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=46&menu=1 Individualist collection
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=43&menu=1 Platinum collection
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=30&menu=1 R'n'B style
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=57&menu=1 Romance collection
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=64&menu=1 Spring collection -  season 2009
-    image remote i/mnumark.gif 
+    image local i/mnumark.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=59&menu=1 Swarovski Elements
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=25&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=63&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=75&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ"
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=71&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=74&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ.
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=77&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=69&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=72&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=68&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=67&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=62&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=48&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: 
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=34&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ + пїЅпїЅпїЅпїЅпїЅпїЅ.
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=65&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=31&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=21&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_theme_id=13&menu=1 пїЅ 8 пїЅпїЅпїЅпїЅпїЅ
-    image remote i/mnumark.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_theme_id=14&menu=1 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image remote f/imgs/vnim.jpg 
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=25&menu=1 Винтаж
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=63&menu=1 Коллекция украшений
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=75&menu=1 Коллекция украшений "Счастливый Топаз"
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=71&menu=1 Коллекция украшений с ониксом
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=74&menu=1 Коллекция украшений с опалом.
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=77&menu=1 Коллекция украшений с позолотой.
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=69&menu=1 Коллекция украшений с рубином
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=72&menu=1 Коллекция украшений с хризолитом
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=68&menu=1 Коллекция украшений с жемчугом.
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=67&menu=1 Коллекция украшений с изумрудом
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=62&menu=1 Коллекция украшений с сапфиром
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=48&menu=1 Коллекция: 
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=34&menu=1 Комплекты: Подвески + серьги.
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=65&menu=1 Тонкости Востока
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=31&menu=1 Глянцевая мечта
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=21&menu=1 Азбука Востока
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_theme_id=13&menu=1 К 8 марта
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_theme_id=14&menu=1 Лечебные магнитные браслеты
+    image local f/imgs/vnim.jpg 
     page local http://www.zenzone.ru/shoping.htm 
-    image remote f/imgs/ro.jpg 
+    image local f/imgs/ro.jpg 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=57&menu=1 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=43 Platinum collection
-    image local http://www.zenzone.ru/f/products/006.02.21sk-00472_s.jpg 
-    page local http://www.zenzone.ru/catalog/product_55635.htm 
-    page local http://www.zenzone.ru/catalog/product_55635.htm пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 925, пїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/catalog/product_55635.htm 006.02.21пїЅпїЅ-00472
-    image remote i/2basket.gif 
+    image local http://www.zenzone.ru/f/products/007.02.21ksp-00050_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_44345.htm 
+    page local http://www.zenzone.ru/catalog/product_44345.htm Кольцо серебро 925, куб.циркон
+    page local http://www.zenzone.ru/catalog/product_44345.htm 007.02.21КСП-00050
+    image local i/2basket.gif 
     image local http://www.zenzone.ru/f/celebrities/celebs_hdr.png 
     image local http://www.zenzone.ru/f/celebrities/main.jpg 
-    image remote i/celebs_more.gif 
+    image local i/celebs_more.gif 
     page local http://www.zenzone.ru/celebrities_1.htm 
                            
                            
-                           пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ &laquo;Moda Topical&raquo;
+                           Фотосессия Виктории Лопыревой для журнала &laquo;Moda Topical&raquo;
               
             
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=42 Bali collection
-    image local http://www.zenzone.ru/f/products/005.02.22ksp-00001_s.jpg 
-    page local http://www.zenzone.ru/catalog/product_44226.htm 
-    page local http://www.zenzone.ru/catalog/product_44226.htm пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 925
-    page local http://www.zenzone.ru/catalog/product_44226.htm 005.02.22пїЅпїЅпїЅ-00001
-    image remote i/2basket.gif 
+    image local http://www.zenzone.ru/f/products/005.05.22-00488_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_44275.htm 
+    page local http://www.zenzone.ru/catalog/product_44275.htm Подвеска серебро 925
+    page local http://www.zenzone.ru/catalog/product_44275.htm 005.05.22-00488
+    image local i/2basket.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=51 Fresh wind of freedom- Ethnic collection
-    image local http://www.zenzone.ru/f/products/010.05.21-01610_s.jpg 
-    page local http://www.zenzone.ru/catalog/product_46313.htm 
-    page local http://www.zenzone.ru/catalog/product_46313.htm пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 925, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/catalog/product_46313.htm 010.05.21-01610
-    image remote i/2basket.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=31 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
-    image local http://www.zenzone.ru/f/products/1-01670_s.jpg 
-    page local http://www.zenzone.ru/catalog/product_37122.htm 
-    page local http://www.zenzone.ru/catalog/product_37122.htm пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 925,пїЅпїЅпїЅпїЅпїЅ,пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/catalog/product_37122.htm 001.02.21-01670
-    image remote i/2basket.gif 
+    image local http://www.zenzone.ru/f/products/010.05.21-01611_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_46314.htm 
+    page local http://www.zenzone.ru/catalog/product_46314.htm Подвеска серебро 925, оникс
+    page local http://www.zenzone.ru/catalog/product_46314.htm 010.05.21-01611
+    image local i/2basket.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=31 Глянцевая мечта
+    image local http://www.zenzone.ru/f/products/1-01525_1871_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_36997.htm 
+    page local http://www.zenzone.ru/catalog/product_36997.htm Кольцо серебро 925
+    page local http://www.zenzone.ru/catalog/product_36997.htm 001.02.21-01525
+    image local i/2basket.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=44 Epatage collection
-    image local http://www.zenzone.ru/f/products/001.02.21-02173_s.jpg 
-    page local http://www.zenzone.ru/catalog/product_44400.htm 
-    page local http://www.zenzone.ru/catalog/product_44400.htm пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 925, пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/catalog/product_44400.htm 001.02.21-02173
-    image remote i/2basket.gif 
-    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=21 пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    image local http://www.zenzone.ru/f/products/001.05.22-00289_s.jpg 
-    page local http://www.zenzone.ru/catalog/product_39439.htm 
-    page local http://www.zenzone.ru/catalog/product_39439.htm пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 925 "пїЅпїЅпїЅпїЅпїЅпїЅ"
-    page local http://www.zenzone.ru/catalog/product_39439.htm 001.05.22-00289
-    image remote i/2basket.gif 
+    image local http://www.zenzone.ru/f/products/001.02.21-02193_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_44420.htm 
+    page local http://www.zenzone.ru/catalog/product_44420.htm Кольцо серебро 925, топаз
+    page local http://www.zenzone.ru/catalog/product_44420.htm 001.02.21-02193
+    image local i/2basket.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=21 Азбука Востока
+    image local http://www.zenzone.ru/f/products/001.02.22-00720_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_37580.htm 
+    page local http://www.zenzone.ru/catalog/product_37580.htm Кольцо с узором серебро 925
+    page local http://www.zenzone.ru/catalog/product_37580.htm 001.02.22-00720
+    image local i/2basket.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=41 Diamond and silver collection
-    image local http://www.zenzone.ru/f/products/007.02.21ksp-00022_s.jpg 
-    page local http://www.zenzone.ru/catalog/product_42554.htm 
-    page local http://www.zenzone.ru/catalog/product_42554.htm пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 925, 1пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ -0,01
-    page local http://www.zenzone.ru/catalog/product_42554.htm 007.02.21пїЅпїЅпїЅ-00022
-    image remote i/2basket.gif 
+    image local http://www.zenzone.ru/f/products/007.16.21ksp-00030_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_42578.htm 
+    page local http://www.zenzone.ru/catalog/product_42578.htm Комплект украшений серьги+подвески серебро 925,3 бриллианта.-0,03
+    page local http://www.zenzone.ru/catalog/product_42578.htm 007.16.21КСП-00030
+    image local i/2basket.gif 
     page local http://www.zenzone.ru/catalog/products.htm?f_style_id=49 Classical collection
-    image local http://www.zenzone.ru/f/products/003.05.21spk-00076_s.jpg 
-    page local http://www.zenzone.ru/catalog/product_44084.htm 
-    page local http://www.zenzone.ru/catalog/product_44084.htm пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 925, пїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/catalog/product_44084.htm 003.05.21пїЅпїЅпїЅ-00076
-    image remote i/2basket.gif 
-    image remote f/luxury_world/3135bir_s.jpg 
-    image remote f/luxury_world/601new_ms.jpg 
-    image remote f/luxury_world/9254card_00.jpg 
-    page local http://www.zenzone.ru/luxury_world/art_73.htm (пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ)
-    page local http://www.zenzone.ru/luxury_world/art_74.htm (пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ)
-    page local http://www.zenzone.ru/luxury_world/art_75.htm (пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ)
-    page local http://www.zenzone.ru/luxury_world/page_1.htm пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ
-    page remote /articles/ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/articles/article_131.htm пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ Zen Zone.
-    page local http://www.zenzone.ru/articles/article_50.htm пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ?
-    page local http://www.zenzone.ru/articles/article_100.htm пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/articles/article_116.htm пїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/articles/article_41.htm CпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/articles/article_44.htm пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Zen Zone
-    page remote /articles/article_129.htm пїЅпїЅпїЅпїЅпїЅпїЅ
-    page local http://www.zenzone.ru/vacancy.htm пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page remote /articles/ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page remote /feedback/ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page remote map.htm пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
-    page remote /resources/ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ
-    image remote i/logodecl.jpg 
-    page remote ../ 
-    page remote http://www.shogo.ru/ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
-    page remote http://www.shogo-advert.ru/ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-    page remote http://cyber-kid.ru/ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+    image local http://www.zenzone.ru/f/products/1-01454_1465_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_36927.htm 
+    page local http://www.zenzone.ru/catalog/product_36927.htm Кольцо серебро 925, водян.сапфир
+    page local http://www.zenzone.ru/catalog/product_36927.htm 001.02.21-01454
+    image local i/2basket.gif 
+    image local f/luxury_world/3135bir_s.jpg 
+    image local f/luxury_world/601new_ms.jpg 
+    image local f/luxury_world/9254card_00.jpg 
+    page local http://www.zenzone.ru/luxury_world/art_73.htm (читать дальше)
+    page local http://www.zenzone.ru/luxury_world/art_74.htm (читать дальше)
+    page local http://www.zenzone.ru/luxury_world/art_75.htm (читать дальше)
+    page local http://www.zenzone.ru/luxury_world/page_1.htm ПЕРЕЙТИ В АРХИВ
+    page local /articles/ ПОЛЕЗНАЯ ИНФОРМАЦИЯ
+    page local http://www.zenzone.ru/articles/article_131.htm Подарочные карты Zen Zone.
+    page local http://www.zenzone.ru/articles/article_50.htm Как выбрать свой камень?
+    page local http://www.zenzone.ru/articles/article_100.htm Энциклопедия камней
+    page local http://www.zenzone.ru/articles/article_116.htm Скидки
+    page local http://www.zenzone.ru/articles/article_41.htm Cоглашение
+    page local http://www.zenzone.ru/articles/article_44.htm Металлы используемые Zen Zone
+    page local /articles/article_129.htm Пресса
+    page local http://www.zenzone.ru/vacancy.htm Вакансии
+    page local /articles/ Полезная информация
+    page local /feedback/ Жалобы и предложения
+    page local map.htm Карта сайта
+    page local /resources/ Ресурсы по теме
+    image local i/logodecl.jpg 
+    page local ../ 
+    page remote http://www.shogo.ru/ Создание сайта, продвижение сайта
+    page remote http://www.shogo-advert.ru/ реклама в интернете
+    page remote http://cyber-kid.ru/ детские коляски
     image remote http://de.cd.b1.a1.top.list.ru/counter?js=na;id=1170990;t=68 
     page remote http://top.mail.ru/jump?from=1170990 
     image remote http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif 
@@ -287,3 +278,1357 @@ http://ya.ru
     page remote http://www.yandex.ru 
     page remote http://www.yandex.ru Яндекс
     page remote http://www.artlebedev.ru Студия Артемия Лебедева
+http://mail.ru
+    css remote http://img.imgsmail.ru/r/favicon.ico 
+    css remote http://img.imgsmail.ru/mail/ru/css/mail-splash3.css?35 
+    css remote http://img.imgsmail.ru/mail/ru/css/search_top.css?1 
+    css remote http://img.imgsmail.ru/mail/ru/css/blocks.css?6 
+    css remote http://img.imgsmail.ru/mail/ru/css/go_search.css?061010 
+    script remote http://js.imgsmail.ru/r/js/splash.js 
+    image remote http://www.tns-counter.ru/V13a****mail_ru/ru/CP1251/tmsec=mail_main/ 
+    image local mail/ru/images/logon.gif 
+    page local http://www.mail.ru/pages/help/11.html Сделать&nbsp;стартовой
+    image local /mail/ru/images/telephonem.gif 
+    page remote http://wap.mail.ru/mobile/ Мобильная&nbsp;почта
+    page remote http://go.mail.ru/ Поиск в Интернете
+    page remote http://r.mail.ru/cln3221/go.mail.ru/search_images?use_morph=yes&amp;q= Картинки
+    page remote http://r.mail.ru/cln3640/go.mail.ru/search_video?q= Видео
+    page remote http://r.mail.ru/cln3223/search.torg.mail.ru/?q= Товары
+    page remote http://go.mail.ru/?tab=people Люди
+    page remote http://r.mail.ru/cln3229/map.mail.ru/?fullscreen=false&q= Карты
+    page remote http://r.mail.ru/cln3862/go.mail.ru/otvet?q= Ответы
+    page remote http://r.mail.ru/cln3222/rabota.mail.ru/vac_search/?go=1&from_search=1&query= Работа
+    page remote http://r.mail.ru/cln3225/multilex.mail.ru/view_dict?word= Словари
+    page remote http://r.mail.ru/cln3224/soft.mail.ru/s_result.php?searchstring= Софт
+    image remote http://img.mail.ru/0.gif 
+    image remote http://img.imgsmail.ru/r/go/ico_lens.gif 
+    page remote http://go.mail.ru/advanced.html 
+    image remote http://img.imgsmail.ru/r/go/ico_keyb.gif 
+    page local http://mail.ru/kb/ 
+    image remote http://img.mail.ru/0.gif 
+    page remote http://r.mail.ru/n43712233 самая красивая женщина в мире
+    page remote http://r.mail.ru/n45609844 Скачать Спутник с музыкой
+    image local /mail/ru/images/log_bms.gif 
+    page remote http://agent.mail.ru 
+    page local nohref 
+    page remote http://win.mail.ru/cgi-bin/signup?reg_user=238279 Регистрация&nbsp;в&nbsp;почте
+    image local /mail/ru/images/helpm.gif 
+    page remote http://r.mail.ru/cln2840/www.mail.ru/pages/help/index.html 
+    page remote http://win.mail.ru/cgi-bin/passremind Забыли?
+    page remote http://my.mail.ru/ Мой&nbsp;мир
+    page remote http://agent.mail.ru/ Агент
+    page remote http://games.mail.ru/ Игры
+    page remote http://love.mail.ru/partner/link.phtml?pid=475306&lid=6462 Знакомства
+    page remote http://blogs.mail.ru/ Блоги
+    page remote http://video.mail.ru/ Видео
+    page remote http://horo.mail.ru/ Гороскопы
+    page remote http://r.mail.ru/cln5470/cards.mail.ru/ Открытки
+    page remote http://news.mail.ru/ Новости
+    page remote http://pogoda.mail.ru/ Погода
+    page remote http://foto.mail.ru/ Фото
+    page remote http://content.mail.ru/ Рассылки
+    page remote http://auto.mail.ru/ Авто
+    page remote http://afisha.mail.ru/ Афиша
+    page remote http://map.mail.ru/ Карты
+    page remote http://mobile.mail.ru/ Мобайл
+    page remote http://rabota.mail.ru/ Работа
+    page remote http://soft.mail.ru/ Софт
+    page remote http://travel.mail.ru/ Путешествия
+    page remote http://otvet.mail.ru/ Ответы
+    page remote http://lady.mail.ru/ Леди
+    page remote http://money.mail.ru/ Деньги
+    page remote http://deti.mail.ru/ Дети
+    page remote http://health.mail.ru/ Здоровье
+    page remote http://realty.mail.ru/ Недвижимость
+    page remote http://torg.mail.ru/ Товары
+    script remote http://img.mail.ru/r/js/blogs/tooltiplib.js 
+    page remote http://torg.mail.ru/ Товары
+    page remote http://torg.mail.ru/price_index/ Цены растут
+    page remote http://torg.mail.ru/price_index/ &#x25b2;0.04
+    page remote http://torg.mail.ru/used/ Барахолка
+    image remote http://rs.mail.ru/b9385380.gif 
+    page remote http://torg.mail.ru/109/251425/?tab_id=2 
+    image remote http://rs.mail.ru/b9396678.jpg 
+    page remote http://torg.mail.ru/109/251425/?tab_id=2 
+    image remote http://rs.mail.ru/b9396629.gif 
+    page remote http://torg.mail.ru/1013/56785/?tab_id=2 
+    image remote http://rs.mail.ru/b9396654.jpg 
+    page remote http://torg.mail.ru/1013/56785/?tab_id=2 
+    image remote http://rs.mail.ru/b9385371.gif 
+    page remote http://torg.mail.ru/2061/331601/?tab_id=2 
+    image remote http://rs.mail.ru/b9396679.jpg 
+    page remote http://torg.mail.ru/2061/331601/?tab_id=2 
+    image remote http://rs.mail.ru/b9385371.gif 
+    page remote http://torg.mail.ru/429/333137/?tab_id=2 
+    image remote http://rs.mail.ru/b9396680.jpg 
+    page remote http://torg.mail.ru/429/333137/?tab_id=2 
+    page remote http://rabota.mail.ru/ Работа для
+    image remote http://rs.mail.ru/b9035284.gif 
+    image remote http://rs.mail.ru/b9035285.jpg 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%EF%F0%EE%E4%E0%E2%E5%F6&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=50000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%EF%F0%EE%E4%E0%E2%E5%F6&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=50000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 Продавца
+    image remote http://rs.mail.ru/b9035286.jpg 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%E2%EE%E4%E8%F2%E5%EB%FC&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=60000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%E2%EE%E4%E8%F2%E5%EB%FC&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=60000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 Водителя
+    image remote http://rs.mail.ru/b9035287.jpg 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%E1%F3%F5%E3%E0%EB%F2%E5%F0&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=100000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%E1%F3%F5%E3%E0%EB%F2%E5%F0&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=100000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 Бухгалтера
+    image remote http://rs.mail.ru/b9035288.jpg 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%F1%E5%EA%F0%E5%F2%E0%F0%FC&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=50000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%F1%E5%EA%F0%E5%F2%E0%F0%FC&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=50000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 Секретаря
+    image remote http://rs.mail.ru/b9035289.jpg 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%E4%E8%F0%E5%EA%F2%EE%F0&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=120000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%E4%E8%F0%E5%EA%F2%EE%F0&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=120000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 Директора
+    image remote http://rs.mail.ru/b9035290.jpg 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%E2%F0%E0%F7&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=60000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%E2%F0%E0%F7&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=60000&amp;hide_empty_salary=1&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=3&amp;publics=0&amp;table=0 Врача
+    image remote http://rs.mail.ru/b9035291.jpg 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%EC%E0%F0%EA%E5%F2%EE%EB%EE%E3&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=80000&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=1&amp;publics=0&amp;table=0 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%EC%E0%F0%EA%E5%F2%EE%EB%EE%E3&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=80000&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=1&amp;publics=0&amp;table=0 Маркетолога
+    image remote http://rs.mail.ru/b9035292.jpg 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%EF%F0%EE%E3%F0%E0%EC%EC%E8%F1%F2&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=90000&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=1&amp;publics=0&amp;table=0 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%EF%F0%EE%E3%F0%E0%EC%EC%E8%F1%F2&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=90000&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=1&amp;publics=0&amp;table=0 Программиста
+    image remote http://rs.mail.ru/b9035293.jpg 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%E4%E8%E7%E0%E9%ED%E5%F0&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=70000&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=1&amp;publics=0&amp;table=0 
+    page remote http://rabota.mail.ru/vac_search/?go=1&amp;query=%E4%E8%E7%E0%E9%ED%E5%F0&amp;search_type=2&amp;search_in=1&amp;order_type=1&amp;country=18767&amp;region=18768&amp;city=18769&amp;spec_group=0&amp;salary_from=70000&amp;direct_employer=1&amp;rekrut_employer=1&amp;exp=0&amp;schedule=0&amp;vac_on_page=1&amp;publics=0&amp;table=0 Дизайнера
+    image remote http://rs.mail.ru/b9035294.gif 
+    image remote http://rs.mail.ru/d240470.gif?rnd=155268637 
+    image remote http://rs.mail.ru/b9400498.jpg 
+    page remote http://r.mail.ru/n45844395 
+    page remote http://r.mail.ru/n45844395 Премьера короткометражного фильма &laquo;АХТАМАР&raquo;, первого в серии пересказанных армянских легенд.
+    page remote http://r.mail.ru/n45452923 Новости
+    page remote http://r.mail.ru/n45452924 Авто
+    page remote http://r.mail.ru/n45452925 Афиша
+    page remote http://r.mail.ru/n45452926 Hi-Tech
+    page remote http://r.mail.ru/n45452927 Леди
+    page remote http://r.mail.ru/n45452928 Игры
+    page remote http://inf.mail.ru/ie8/news/mailru_start_slice.html#news 
+    image remote http://rs.mail.ru/b9400323.jpg 
+    page remote http://news.mail.ru/politics/3232182 Онищенко: новогодние праздники не прошли для россиян безболезненно
+    page remote http://news.mail.ru/incident/3232143/ Россияне не могут улететь из Европы из-за снегопада
+    page remote http://news.mail.ru/society/3231864/ Близ египетских пирамид нашли новые могилы
+    image remote http://img.mail.ru/0.gif 
+    page remote http://news.mail.ru/sport/3232236/ Экипаж Чагина выиграл восьмой этап &laquo;Дакара&raquo;   
+    image remote http://img.mail.ru/0.gif 
+    page remote http://news.mail.ru/incident/3232061/ В столице массовое ДТП из-за разлива воды
+    image remote http://img.mail.ru/0.gif 
+    page remote http://news.mail.ru/society/3231668/ Собчак в&nbsp;Куршевеле оделась за&nbsp;счет жениха
+    page remote http://auto.mail.ru/article.html?id=30540 Ралли &laquo;Дакар&raquo;: позади семь этапов 
+    image remote http://img.mail.ru/0.gif 
+    page remote http://news.mail.ru/sport/3232116/ В итальянскую прессу попали детали новой Ferrari
+    image remote http://rs.mail.ru/b9394892.jpg 
+    page remote http://news.mail.ru/politics/3230985 Россия и&nbsp;Белоруссия вновь не&nbsp;смогли договориться о&nbsp;поставках нефти
+    page remote http://news.mail.ru/politics/3232057/ Онищенко: утечки радиации в&nbsp;Волгодонске не&nbsp;было
+    page remote http://news.mail.ru/society/3232156/ Застрявшие в&nbsp;Женеве россияне вернулись в&nbsp;Москву
+    page remote http://news.mail.ru/incident/3232203/ Рейс Москва-Лондон прерван по&nbsp;вине хулигана
+    page remote http://news.mail.ru/economics/3232230/ Forbes избавился от&nbsp;своего главного офиса
+    page remote http://news.mail.ru/politics/3232238/ Израиль отгородится &laquo;забором&raquo; от&nbsp;Египта
+    page remote http://news.mail.ru/incident/3232244/ Землетрясение магнитудой 3,9 произошло на&nbsp;Камчатке
+    page remote http://news.mail.ru/politics/3232206/ Американский мэр подрался с&nbsp;владельцем издания
+    page remote http://inf.mail.ru/ie8/auto/slice_main.html#auto 
+    image remote http://rs.mail.ru/b9391884.jpg 
+    page remote http://auto.mail.ru/article.html?id=30539 Tata Nano за 220 000 долларов
+    page remote http://auto.mail.ru/article.html?id=30540 Ралли &laquo;Дакар&raquo;: позади семь этапов 
+    page remote http://auto.mail.ru/article.html?id=30538 Суперкары &ndash; теперь и Турция 
+    page remote http://auto.mail.ru/article.html?id=30537 &laquo;Дакар-2010&raquo;: КАМАЗ удерживает лидерство
+    page remote http://auto.mail.ru/article.html?id=30536 Ралли &laquo;Дакар&raquo;: весь подиум наш!
+    page remote http://auto.mail.ru/article.html?id=30535 Дакар-2010: третий этап позади
+    page remote http://auto.mail.ru/article.html?id=30534 Ралли &laquo;Дакар&raquo;: КАМАЗ в лидерах
+    page remote http://auto.mail.ru/article.html?id=30532 Центр Москвы станет пешеходным 
+    page remote http://inf.mail.ru/ie8/afisha/slice_main.html#afisha 
+    image remote http://rs.mail.ru/b9397601.jpg 
+    image remote http://img.mail.ru/0.gif 
+    page remote http://afisha.mail.ru/article.html?id=26755 Как будут выглядеть звезды через 10 лет
+    image remote http://img.mail.ru/0.gif 
+    page remote http://afisha.mail.ru/article.html?id=26728 Самые роскошные люди десятилетия 
+    image remote http://img.mail.ru/0.gif 
+    page remote http://afisha.mail.ru/article.html?id=26759 Лиза Боярская примерила украшения Кости Крюкова
+    image remote http://img.mail.ru/0.gif 
+    page remote http://afisha.mail.ru/article.html?id=26753 Меган Фокс для Men&rsquo;s Style 
+    page remote http://afisha.mail.ru/article.html?id=26731 Опубликованы фотографии из личного фотоальбома Майкла Джексона
+    page remote http://afisha.mail.ru/article.html?id=26744 Съемки &laquo;Охотников за привидениями &ndash; 3&raquo; начнутся летом 
+    image remote http://img.mail.ru/0.gif 
+    page remote http://afisha.mail.ru/article.html?id=26729 Лара Стоун для британского Vogue
+    image remote http://img.mail.ru/0.gif 
+    page remote http://afisha.mail.ru/article.html?id=26672 Модель Шанель Иман переодели в Минни Маус
+    image remote http://rs.mail.ru/b9243157.jpg 
+    page remote http://r.mail.ru/n45494966 
+    page remote http://r.mail.ru/n45494966 Флэшка Lockface открывает бутылки и узнает хозяина в лицо
+    page remote http://r.mail.ru/n45685696 Мошенник продал Пентагону и ЦРУ фальшивые &laquo;антитеррористические&raquo; программы
+    page remote http://r.mail.ru/n45685410 10 прогнозов по развитию музыкальной индустрии на ближайшее десятилетие
+    page remote http://r.mail.ru/n45685157 GPS-система заманила пожилых туристов в снежную ловушку
+    page remote http://r.mail.ru/n45700011 Приватность личных разговоров под угрозой
+    page remote http://r.mail.ru/n45669701 Создана первая компактная камера с человеческим цветовосприятием
+    page remote http://r.mail.ru/n45625969 Создан полноценный транзистор из одной молекулы
+    page remote http://r.mail.ru/n45608187 Беглый преступник поселился в социальных сетях
+    image remote http://rs.mail.ru/b9393312.jpg 
+    page remote http://health.mail.ru/news/12637 
+			Владислав Галкин угодил в&nbsp;больницу
+		
+    page remote http://health.mail.ru/news/12636 Чай в&nbsp;пакетиках может разрушить кости
+    page remote http://health.mail.ru/articles/12633 Поврежденные клетки защитит соевый соус
+    page remote http://health.mail.ru/articles/12617 Когда мужчины начинают ценить своих жен?
+    page remote http://health.mail.ru/news/12579 Звезды разденутся ради женского здоровья
+    page remote http://health.mail.ru/news/12578 Мужчина прожил два года с&nbsp;ножницами в&nbsp;животе
+    page remote http://health.mail.ru/news/12566 Ученые создали искусственный желудок
+    page remote http://health.mail.ru/articles/12522 Пять шагов к психическому здоровью
+    image remote http://rs.mail.ru/b9325904.jpg 
+    page remote http://progames.mail.ru/document/3519/view Ещё одна вещь, о которой женщины лгут!
+    page remote http://progames.mail.ru/document/3551/view Фанат GTA не ходил в туалет ради рекорда
+    page remote http://progames.mail.ru/document/3549/view Новая Call of Duty выйдет в ноябре!
+    page remote http://progames.mail.ru/document/3548/view Sony почтит память Майкла Джексона
+    page remote http://progames.mail.ru/document/3547/view StarCraft 2 подружит людей и протоссов
+    page remote http://progames.mail.ru/document/3537/view Дети играют "по-взрослому"
+    page remote http://progames.mail.ru/document/3533/view Самые лучшие игры 2009 года
+    page remote http://progames.mail.ru/document/3527/view Disciples III в центре скандала
+    image remote http://rs.mail.ru/d240848.gif?rnd=349207692 
+    image remote http://ad.adriver.ru/cgi-bin/rle.cgi?sid=1&bt=21&ad=205146&pid=395247&bid=744892&bn=744892&rnd=1137839014 
+    image remote http://rs.mail.ru/b9400503.gif 
+    page remote http://r.mail.ru/n45844400 
+    page remote http://r.mail.ru/n45844400 Citroёn C3 Picasso 2009 от 488 000 рублей
+    page remote http://maps.mail.ru/#x=37.54988963069383&y=54.167304443652604&z=9&mode=map&fullscreen=true&jams=false&pid=7750 Тула
+    page remote http://inf.mail.ru/ie8/pogoda/hslice_main.html?city=2439#pogoda 
+    image remote http://img.mail.ru/r/weather_new/pict_weather_big_n18.gif 
+    page remote http://pogoda.mail.ru/?city=2439 
+    page remote http://pogoda.mail.ru/?city=2439 -18&deg;
+    page remote http://pogoda.mail.ru/?city=2439 утром: -14&deg;завтра: -10&deg;
+    page remote http://pogoda.mail.ru/?city=2439 малооблачно
+    page remote http://inf.mail.ru/ie8/rate/slice_RUR.html#rate 
+    page remote http://news.mail.ru/currency.html?charcode=USD 30.1851
+    page remote http://news.mail.ru/currency.html?charcode=USD &minus;0.0591
+    page remote http://news.mail.ru/currency.html?charcode=EUR 43.4605
+    page remote http://news.mail.ru/currency.html?charcode=EUR +0.0722
+    page remote http://r.mail.ru/n32820308 ТВ
+    page remote http://r.mail.ru/n32820309 Кино
+    page remote http://r.mail.ru/n32820308 ТВ
+    page remote http://r.mail.ru/n32820309 Кино
+    image remote http://img.mail.ru/r/tv/channels/8304.gif 
+    page remote http://tv.mail.ru/?channel=1&period=3 
+    image remote http://rs.mail.ru/b6939277.gif 
+    page remote http://tv.mail.ru/info.html?programm=19275392 Нокдаун
+    image remote http://img.mail.ru/r/tv/channels/17748.gif 
+    page remote http://tv.mail.ru/?channel=2&period=3 
+    image remote http://rs.mail.ru/b6939277.gif 
+    page remote http://tv.mail.ru/info.html?programm=19277316 Последний самурай
+    image remote http://img.mail.ru/r/tv/channels/8898.gif 
+    page remote http://tv.mail.ru/?channel=4&period=3 
+    image remote http://rs.mail.ru/b6939277.gif 
+    page remote http://tv.mail.ru/info.html?programm=19279711 Бальзаковский возраст, или все мужики - сво.... (10-я - 12-я серии)
+    image remote http://rs.mail.ru/b9386089.jpg 
+    page remote http://afisha.mail.ru/event.html?placetype=1&id=522106 
+    page remote http://afisha.mail.ru/event.html?placetype=1&id=522106 Простые сложности
+    image remote http://rs.mail.ru/b9385852.jpg 
+    page remote http://afisha.mail.ru/event.html?placetype=1&id=522102 
+    page remote http://afisha.mail.ru/event.html?placetype=1&id=522102 Воины света
+    image remote http://rs.mail.ru/b9386120.jpg 
+    page remote http://afisha.mail.ru/event.html?placetype=1&id=522100 
+    page remote http://afisha.mail.ru/event.html?placetype=1&id=522100 Соломон Кейн
+    page remote http://r.mail.ru/n45452929 Каталог сайтов
+    page remote http://r.mail.ru/n45452930 Каталог сообществ
+    page remote http://list.mail.ru/31358/1/0_1_0_1.html Рождество
+    page remote http://list.mail.ru/10901/1/0_1_0_1.html Культура и искусство
+    page remote http://list.mail.ru/10902/1/0_1_0_1.html Наука и образование
+    page remote http://list.mail.ru/2/1/0_1_0_1.html Общество и политика
+    page remote http://list.mail.ru/10906/1/0_1_0_1.html Новости
+    page remote http://list.mail.ru/10908/1/0_1_0_1.html Справки
+    page remote http://list.mail.ru/10904/1/0_1_0_1.html Отдых
+    page remote http://list.mail.ru/10907/1/0_1_0_1.html Спорт
+    page remote http://list.mail.ru/10909/1/0_1_0_1.html Юмор
+    page remote http://list.mail.ru/10903/1/0_1_0_1.html Непознанное
+    page remote http://list.mail.ru/10068/1/0_1_0_1.html Гадания
+    page remote http://list.mail.ru/14263/1/0_1_0_1.html Товары и услуги
+    page remote http://list.mail.ru/1001/1/0_1_0_1.html Авто
+    page remote http://list.mail.ru/10896/1/0_1_0_1.html Бизнес и финансы
+    page remote http://list.mail.ru/14249/1/0_1_0_1.html Производство
+    page remote http://list.mail.ru/10899/1/0_1_0_1.html Работа
+    page remote http://list.mail.ru/10900/1/0_1_0_1.html Компьютеры
+    page remote http://list.mail.ru/10898/1/0_1_0_1.html Интернет
+    page remote http://list.mail.ru/10897/1/0_1_0_1.html Домашний очаг
+    page remote http://list.mail.ru/10993/1/0_1_0_1.html Медицина
+    page remote http://list.mail.ru/14251/1/0_1_0_1.html Недвижимость
+    page remote http://list.mail.ru/12113/1/0_1_0_1.html Ремонт
+    page remote http://list.mail.ru/32189/1/0_1_0_1.html Новогодние туры
+    page remote http://r.mail.ru/n45452931 Семья, дом, дети
+    page remote http://r.mail.ru/n45452932 Культура и искусство
+    page remote http://r.mail.ru/n45452933 Музыка
+    page remote http://r.mail.ru/n45452934 Спорт
+    page remote http://r.mail.ru/n45452935 Образование и учеба
+    page remote http://r.mail.ru/n45452936 Животные
+    page remote http://r.mail.ru/n45452937 Туризм и путешествия
+    page remote http://r.mail.ru/n45452938 Знакомства и любовь
+    page remote http://r.mail.ru/n45452939 Авто и мото
+    page remote http://r.mail.ru/n45452940 Советы и консультации
+    page remote http://r.mail.ru/n45452941 Досуг, отдых, хобби
+    page remote http://r.mail.ru/n45452942 Темы для взрослых
+    page remote http://r.mail.ru/n45452943 Общество, политика
+    page remote http://r.mail.ru/n45452944 Игры, развлечения, юмор
+    image remote http://rs.mail.ru/b9186775.jpg 
+    page remote http://r.mail.ru/n45355308 
+    page remote http://r.mail.ru/n37464912 Фото
+    page remote http://r.mail.ru/n37464913 Видео
+    image remote http://img.mail.ru/mail/ru/images/a60_l.gif 
+    page remote http://r.mail.ru/n37464914 
+    image remote http://rs.mail.ru/b7213692.jpg 
+    page remote http://r.mail.ru/n45456704 
+    image remote http://rs.mail.ru/b7549157.jpg 
+    page remote http://r.mail.ru/n45843292 
+    image remote http://rs.mail.ru/b7443019.jpg 
+    page remote http://r.mail.ru/n45843924 
+    image remote http://rs.mail.ru/b8828166.jpg 
+    page remote http://r.mail.ru/n45740688 
+    image remote http://img.mail.ru/mail/ru/images/a60_r.gif 
+    page remote http://r.mail.ru/n37464919 
+    image remote http://img.mail.ru/0.gif 
+    image remote http://img.mail.ru/r/watermark_90x50.png 
+    page remote http://r.mail.ru/n45511439 
+    page remote http://r.mail.ru/n45512744 Смотреть видео
+    image remote http://img.mail.ru/0.gif 
+    script remote http://img.mail.ru/r/js/blogs/tooltiplib.js 
+    page remote http://r.mail.ru/n43817464 Звездные блоги
+    image remote http://rs.mail.ru/b8211996.jpg 
+    page remote http://r.mail.ru/n43817465 
+    image remote http://rs.mail.ru/b8211997.jpg 
+    page remote http://r.mail.ru/n43817466 
+    image remote http://rs.mail.ru/b8211998.jpg 
+    page remote http://r.mail.ru/n43817467 
+    image remote http://rs.mail.ru/b8213843.jpg 
+    page remote http://r.mail.ru/n43817468 
+    page remote http://r.mail.ru/n45509005 Играй с друзьями в Моем Мире
+    image remote http://rs.mail.ru/b9244455.jpg 
+    page remote http://r.mail.ru/n45509008 
+    page remote http://r.mail.ru/n45509008 Крадущаяся панда
+    image remote http://rs.mail.ru/b9250139.jpg 
+    page remote http://r.mail.ru/n45509006 
+    page remote http://r.mail.ru/n45509006 Жуки
+    image remote http://rs.mail.ru/b9244454.jpg 
+    page remote http://r.mail.ru/n45509007 
+    page remote http://r.mail.ru/n45509007 Город
+    image remote http://rs.mail.ru/b9244456.jpg 
+    page remote http://r.mail.ru/n45509009 
+    page remote http://r.mail.ru/n45509009 Рыбная ферма
+    page remote http://corp.mail.ru/ Mail.Ru
+    page local http://mail.ru/all/ Все проекты
+    page remote http://top.mail.ru/ Рейтинг
+    page remote http://hosting.mail.ru/ Хостинг
+    page local http://www.mail.ru/pages/help/index.html Помощь
+    page remote http://sales.mail.ru/ Реклама на Mail.Ru
+    page remote http://corp.mail.ru/ О компании
+    page remote http://corp.mail.ru/vacancy.htm Вакансии
+    image remote http://top5.mail.ru/counter?js=na;id=110605 
+    image remote http://counter.rambler.ru/top100.cnt?260606 
+    page remote http://top100.rambler.ru/top100/ 
+    script remote https://auth.mail.ru/https.js?770036328 
+http://rambler.ru
+    css local http://www.rambler.ru/favicon.ico?ver=3 
+    css local http://www.rambler.ru/i/osd.xml 
+    css local http://www.rambler.ru/doc/company_news/rss 
+    image remote http://counter.rambler.ru/top100.cnt?29811 
+    image remote http://top3.mail.ru/counter?id=240695 
+    image remote http://www.tns-counter.ru/V13a****rambler_ru/ru/CP1251/tmsec=rambler_head/ 
+    image remote http://ad.adriver.ru/cgi-bin/rle.cgi?sid=124718&bt=21&pz=0&rnd=2034579799 
+    page local http://www.rambler.ru/doc/startpage.shtml Сделать стартовой
+    page remote http://mobile.rambler.ru Мобильный Рамблер
+    page remote http://myrambler.ru Мой Рамблер
+    page remote http://help.rambler.ru/project.html?s=head Помощь
+    page remote http://login.rambler.ru?http://mail.rambler.ru/mail/startpage Войти в Почту
+    image remote http://i.rl0.ru/search/logo_www.gif?v=2010c 
+    page remote http://2010.rambler.ru/ 
+    image remote http://i.rl0.ru/search/rlogo_www.gif 
+    page remote http://2010.rambler.ru/ 
+    page local http://www.rambler.ru/ Интернет
+    page remote http://news.rambler.ru/ Новости
+    page remote http://nova.rambler.ru/pictures Картинки
+    page remote http://nova.rambler.ru/video Видео
+    page remote http://top100.rambler.ru/top100/ Tоп100
+    page remote http://nova.rambler.ru/price Товары
+    page remote http://nova.rambler.ru/vacancy Вакансии
+    page local http://www.rambler.ru/all.shtml ещё
+    page remote http://nova.rambler.ru/auto Автоцены
+    page remote http://nova.rambler.ru/wiki Википедия
+    page remote http://weather.rambler.ru Погода
+    page local http://www.rambler.ru/dict/ Словари
+    page remote http://finance.rambler.ru Финансы
+    page local http://www.rambler.ru/all.shtml все проекты ...
+    page remote http://tools.rambler.ru Клавиатура
+    page remote http://nova.rambler.ru/srch/advanced Расширенный поиск
+    page remote http://id.rambler.ru/script/newuser.cgi Завести почту
+    page remote http://id.rambler.ru/script/reminder.cgi Забыли пароль?
+    page remote http://2010.rambler.ru Новый год
+    page remote http://virtus.rambler.ru Virtus
+    page remote http://icq.rambler.ru Рамблер-ICQ
+    page remote http://finance.rambler.ru Финансы
+    page remote http://news.rambler.ru Новости
+    page remote http://top100.rambler.ru?src=menu Каталог Топ100
+    page remote http://kids.rambler.ru Дети
+    page remote http://price.ru Price.ru
+    page remote http://love.rambler.ru Знакомства
+    page remote http://ferra.ru Ferra.ru
+    page remote http://orsn.rambler.ru Недвижимость
+    page remote http://horoscopes.rambler.ru Гороскопы
+    page remote http://autorambler.ru Авторамблер
+    page remote http://games.rambler.ru Игры
+    page remote http://friends.rambler.ru Друзья
+    page remote http://assist.rambler.ru Ассистент
+    page remote http://sport.rambler.ru Спорт
+    page remote http://nova.rambler.ru/vacancy Вакансии
+    page remote http://lenta.ru/ Lenta.ru
+    page remote http://afisha.rambler.ru Афиша
+    page remote http://travel.rambler.ru Путешествия
+    page remote http://nakarte.rambler.ru Карты
+    page remote http://myrambler.ru Мой Рамблер
+    page remote http://foto.rambler.ru Фото
+    page remote http://vision.rambler.ru Видео
+    page remote http://audio.rambler.ru Аудио
+    page remote http://planeta.rambler.ru Планета
+    page remote http://ad4.rambler.ru/roff/ban.clk?pg=6805%26bn=176499 ВИДЕО
+    image remote http://images.rambler.ru/upl/r4/2009/12/25/ng_video_1_0yb.jpg 
+    page remote http://ad4.rambler.ru/roff/ban.clk?pg=6805%26bn=176499 
+    page remote http://ad4.rambler.ru/roff/ban.clk?pg=6805%26bn=176499 Конкурс: сними Новогоднее видео!
+    page remote http://news.rambler.ru НОВОСТИ ДНЯ
+    page remote http://finance.rambler.ru/ Финансы
+    page remote http://news.rambler.ru/Russia/kino/ Кино
+    page remote http://news.rambler.ru/Russia/science/ Наука
+    page remote http://news.rambler.ru/Russia/feminine/ Женский клуб
+    image local /img/c220x110/4bb65769a2eedb9915522fb8728b396e/img.beta.rian.ru/images/20280/90/202809050.jpg 
+    page remote http://news.rambler.ru/Russia/head/4924376/   
+    page remote http://news.rambler.ru/Russia/head/4924376/ Посетители Башни Халифы застряли в лифте на высоте 430 метров
+    page remote http://news.rambler.ru/Russia/head/4924376/ Четырнадцать посетителей обзорной площадки дубайского супернебоскреба &laquo;Бурдж Халифа&raquo; застряли в лифте на высоте 430 метров.
+    page remote http://news.rambler.ru/Russia/head/4924815/ &laquo;забором&raquo; от Египта
+    page remote http://news.rambler.ru/Russia/head/4924672/ выступят с последним словом
+    page remote http://news.rambler.ru/Russia/head/4924579/ запретить скрытую рекламу алкоголя в фильмах
+    page remote http://autorambler.ru/journal/news/10.01.2010/560956867/ появится модернизированная &laquo;ГАЗель&raquo;
+    page remote http://news.rambler.ru/Russia/head/4923471/ статус украинского языка
+    page remote http://news.rambler.ru/Russia/head/4882925/ четвертую неделю подряд
+    page remote http://news.rambler.ru/Russia/head/4923547/ Кубка Африки
+    page remote http://news.rambler.ru/Russia/head/4914598/ пропавшего российского дипломата
+    page remote http://autorambler.ru/journal/news/10.01.2010/560956866/ суперкар с британскими корнями
+    page remote http://news.rambler.ru/Russia/head/4924462/ из-за сериалов
+    page local http://www.rambler.ru/click?from=afisha_holidays&amp;_URL=http://afisha.rambler.ru/event.html?id=29530652  Афиша: 
+    page local http://www.rambler.ru/click?from=afisha_holidays&amp;_URL=http://afisha.rambler.ru/event.html?id=29530652  Тетро
+    page remote http://top100.rambler.ru?src=title КАТАЛОГ ТОП100
+    page remote http://top100.rambler.ru/top100/All?src=top Самые популярные сайты
+    page remote http://top100.rambler.ru/top100?src=main Весь каталог
+    page remote http://top100.rambler.ru/top100/Automotive/?src=cat Авто и мото
+    page remote http://top100.rambler.ru/top100/Sport/?src=cat Спорт
+    page remote http://top100.rambler.ru/top100/Media/?src=cat СМИ и периодика
+    page remote http://top100.rambler.ru/top100/Humour/?src=cat Юмор
+    page remote http://top100.rambler.ru/top100/MP3/?src=cat МР3
+    page remote http://top100.rambler.ru/top100/Entertainment/?src=cat Развлечения
+    page remote http://top100.rambler.ru/top100/Job/?src=cat Работа
+    page remote http://top100.rambler.ru/top100/Games/?src=cat Игры
+    page remote http://top100.rambler.ru/top100/Photo/?src=cat Фото
+    page remote http://top100.rambler.ru/top100/Contacts/?src=cat Знакомства
+    page remote http://top100.rambler.ru/top100/Cinema/?src=cat Кино
+    page remote http://top100.rambler.ru/top100/Music/?src=cat Музыка
+    page remote http://top100.rambler.ru/top100/FemaleClub/?src=cat Женский клуб
+    page remote http://top100.rambler.ru/top100/TV/?src=cat Телевидение
+    page remote http://top100.rambler.ru/top100/Politics/?src=cat Политика
+    page remote http://top100.rambler.ru/top100/Travel/?src=cat Путешествия
+    page remote http://top100.rambler.ru/top100/Software/?src=cat Программы
+    page remote http://top100.rambler.ru/top100/Health/?src=cat Медицина
+    page remote http://top100.rambler.ru/top100/Recreation/?src=cat Отдых
+    page remote http://top100.rambler.ru/top100/Real-Estate/?src=cat Недвижимость
+    page remote http://top100.rambler.ru/top100/Consum/?src=cat Товары и услуги
+    page remote http://top100.rambler.ru/top100/Communications/?src=cat Связь
+    page remote http://top100.rambler.ru/top100/Computers/?src=cat Компьютеры
+    page remote http://top100.rambler.ru/top100/Business/?src=cat Бизнес и финансы
+    page remote http://top100.rambler.ru/top100/Construction/?src=cat Строительство
+    page remote http://top100.rambler.ru/top100/Education/?src=cat Образование
+    page remote http://top100.rambler.ru/top100/Security/?src=cat Безопасность
+    page remote http://top100.rambler.ru/top100/Weather/?src=cat Погода
+    page remote http://top100.rambler.ru/top100/Radio/?src=cat Радио
+    page remote http://top100.rambler.ru/top100/Kids/?src=cat Дети
+    page remote http://sport.rambler.ru СПОРТ
+    image local /img/f/48590f419b9a32517530e0aae6ffd7e8/www.rambler.ru/news/images/news/2010/01/11/1263162026_85698.jpg 
+    page remote http://sport.rambler.ru/news/football/577391737.html 
+    page remote http://sport.rambler.ru/news/football/577391737.html "Звезда" с привкусом горечи
+    page remote http://sport.rambler.ru/news/football/577391737.html Андрей Аршавин вспоминает, что в ушедшем году было достаточно не только громких успехов сродни четырем голам &laquo;Ливерпулю&raquo;, но и неудач&nbsp;&mdash; один Марибор чего стоит.
+    image local /img/f/969f04115f1f45df25035f1b480f931d/www.rambler.ru/news/images/news/2010/01/11/1263160240_83067.jpg 
+    page remote http://sport.rambler.ru/news/football/577391266.html 
+    page remote http://sport.rambler.ru/news/football/577391266.html "Итальянские каникулы" Гуса
+    page remote http://sport.rambler.ru/news/football/577391266.html Несмотря на то, что главный тренер сборной России временно был &laquo;вне игры&raquo;, его имя без устали склонялось ведущими спортивными изданиями Италии, которые старательно отправляют Хиддинка в &laquo;Ювентус&raquo;.
+    page remote http://web.rambler.ru САЙТЫ ДНЯ
+    image local /i/0.gif 
+    page remote http://web.rambler.ru/post/kuda-zhalovatsya-na-avtomobilnyh-idiotov/   
+    page remote http://web.rambler.ru/post/kuda-zhalovatsya-na-avtomobilnyh-idiotov/ Куда жаловаться на автомобильных идиотов
+    page remote http://web.rambler.ru/post/kuda-zhalovatsya-na-avtomobilnyh-idiotov/ Лента жалоб, проверка водителя по автономеру, охота за мигалками и другие приключения.
+    page remote http://finance.rambler.ru ФИНАНСЫ
+    page remote http://finance.rambler.ru/stock_index/?id=1 РТС
+    image local /i/0.gif 
+    page remote http://finance.rambler.ru/stock_index/?id=2 ММВБ
+    image local /i/0.gif 
+    page remote http://finance.rambler.ru/news/economics/60013471.html Google уходит в энергический бизнес
+    page remote http://finance.rambler.ru/news/economics/60004490.html Пока рано утверждать, что в 2010г. мировая экономика выйдет из кризиса
+    page remote http://finance.rambler.ru/news/economics/59988098.html Венесуэла девальвирует свою национальную валюту
+    page remote http://finance.rambler.ru/news/economics/59956302.html Франция хочет обложить новым налогом Google, Yahoo и Facebook
+    page remote http://autorambler.ru АВТОРАМБЛЕР
+    image local /img/80x60/010c81e99ff74595eec5023078ddae6f/img.autorambler.ru/news/getimg120x90.php?id=92449 
+    page remote http://autorambler.ru/journal/events/10.01.2010/560956088/ 
+    page remote http://autorambler.ru/journal/events/10.01.2010/560956088/ Россияне больше всего любят автомобили черного и серебристого цвета
+    page remote http://autorambler.ru/journal/events/10.01.2010/560956761/ Названы самые уродливые спорткары
+    page remote http://autorambler.ru/journal/road/10.01.2010/560956089/ В северо-западной Англии водители боятся магистралей
+    image local /img/c40x40/b23ccb18df8e084179b9f8ab2800aa81/static.autorambler.ru/teasers/elkamain.jpg 
+    page remote http://autorambler.ru/catalogue/chooser/   Подбор нового автомобиля 
+    page remote http://www.ferra.ru/ Технорынок
+    image local /img/55x50/5fcbbd38772f57c623e2c7c422e0055d/ext6.price.ru/images/price/img/small/rhead/168b78ac8c1a747e44d7814f6d8241f7.jpg 
+    page remote http://www.ferra.ru/online/communicators/94247/?from=rhead&rand=5&slot=1 
+    page remote http://www.ferra.ru/online/communicators/94247/?from=rhead&rand=5&slot=1 Nokia N900&nbsp;&mdash; игровая консоль, портативный компьютер и хакерский инструмент. Все секреты в одной статье
+    page remote http://www.ferra.ru/online/mobilis/94543/?from=rhead&rand=1&slot=2 MacBook. Обзор самого доступного ноутбука Apple.
+    page remote http://www.ferra.ru/online/digihome/93750/?from=rhead&rand=2&slot=3 Panasonic VIERA TX-PR50V10 – плазма без сусликов и недостатков
+    page remote http://www.ferra.ru/online/digiphoto/93859/?from=rhead&rand=1&slot=4 Все подробности о новой суперкамере Canon EOS 1D&nbsp;MarkIV
+    page remote http://lenta.ru LENTA.RU
+    image local /img/f/34ad1a9afdea231321f88a04e34059b8/img.lenta.ru/articles/2010/01/10/finaldigital/picture--85.jpg 
+    page remote http://lenta.ru/articles/2010/01/10/finaldigital/ 
+    page remote http://lenta.ru/articles/2010/01/10/finaldigital/ Итоги 2009 года в IT-области
+    page remote http://lenta.ru/articles/2010/01/10/finalculture1/ Главные культурные сенсации&nbsp;&mdash; 2009
+    page remote http://lenta.ru/articles/2009/12/16/skunk/ Интервью с вокалисткой Skunk Anansie
+    page remote http://auto.lenta.ru/articles/2010/01/10/finalautosport/ Автоспортивные итоги 2009 года
+    page remote http://news.rambler.ru/Russia/starlife/ СВЕТСКАЯ ЖИЗНЬ
+    image local /img/c40x40/23659bea5dacfd79ca34b3122bd59044/img.siteua.org/content/images/134x100/155976.jpg 
+    page remote http://news.rambler.ru/Russia/starlife/4924550/ 
+    page remote http://news.rambler.ru/Russia/starlife/4924550/ Телеведущая Мария Киселева родила второго ребенка
+    page remote http://news.rambler.ru/Russia/starlife/4923900/ Собчак в Куршевеле оделась за счет жениха
+    page remote http://news.rambler.ru/Russia/starlife/4921365/ Ума Турман помирилась с бойфрендом
+    page remote http://news.rambler.ru/Russia/starlife/4923372/ Аскольд Запашный стал отцом
+    page remote http://horoscopes.rambler.ru ГОРОСКОПЫ
+    page remote http://horoscopes.rambler.ru/ В начале рабочей недели звезды явно решили поддержать нас. Соединение Солнца и Венеры приносит&hellip;
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=aries 
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=taurus 
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=gemini 
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=cancer 
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=leo 
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=virgo 
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=libra 
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=scorpio 
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=sagittarius 
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=capricorn 
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=aquarius 
+    image local /i/0.gif 
+    page remote http://horoscopes.rambler.ru/index.html?sign=pisces 
+    image local /i/icos/horo/present-horoscope.gif 
+    page remote http://horoscopes.rambler.ru/gifts/ Подари
+    image local /i/icos/horo/love-prognoses.gif 
+    page remote http://horoscopes.rambler.ru/loveprediction/ Любовь
+    image local /i/icos/horo/prognoses2009.gif 
+    page remote http://horoscopes.rambler.ru/year/ 2009
+    page remote http://games.rambler.ru ИГРЫ
+    image local /img/c85x85/54cc5c5b0e0d697750a1081de9ccd29a/games.rambler.ru/images/game/2009/11/26/1259229399_24017.100x100.jpg 
+    page remote http://games.rambler.ru/game/backgammonlong/   
+    page remote http://games.rambler.ru/game/backgammonlong/ Длинные Нарды
+    page remote http://games.rambler.ru/game/backgammonlong/ Длинные Нарды&nbsp;&mdash; наиболее распространенная версия известной игры.
+    image local /img/c42x42/324e1c7e044f9d17855c2d799e0b77a7/games.rambler.ru/images/game/2008/12/22/1229938630_35728.jpg 
+    page remote http://games.rambler.ru/game/billiard8/   Бильярд Восьмерка
+    image local /img/c42x42/0df8c6cb404e10feac49e8d53bd37a3c/games.rambler.ru/images/game/2008/11/19/1227089378_72240.jpg 
+    page remote http://games.rambler.ru/game/dice/   Кости
+    page remote http://love.rambler.ru ЗНАКОМСТВА
+    page remote http://love.rambler.ru Более 4 500 000 анкет!
+    page remote http://ad4.rambler.ru/roff/ban.clk?pg=7115%26bn=177474 Что будетв 2010 году?
+    image remote http://images.rambler.ru/upl/r4/2009/12/25/kid_main_1.jpg 
+    page remote http://ad4.rambler.ru/roff/ban.clk?pg=6804%26bn=176586 
+    page remote http://ad4.rambler.ru/roff/ban.clk?pg=6804%26bn=176586 Что  подарить ребенку на Новый Год
+    page local /location/ Выбрать&nbsp;город
+    page remote http://weather.rambler.ru/?town=27719 Прогноз погоды
+    image local /i/icos/weather/48x48_clear_n.gif? 
+    page remote http://weather.rambler.ru/?town=27719   
+    page remote http://weather.rambler.ru/?town=27719 днём
+    image local /i/icos/weather/20x20_clear.gif? 
+    page remote http://weather.rambler.ru/?town=27719 
+    page remote http://weather.rambler.ru/?town=27719 завтра
+    image local /i/icos/weather/20x20_clear.gif? 
+    page remote http://weather.rambler.ru/?town=27719 
+    page remote http://finance.rambler.ru/currency/world/ Курсы валют
+    page remote http://finance.rambler.ru/currency/world/ ЦБ (01.01)
+    page remote http://finance.rambler.ru/currency/op/ Покупка / Продажа
+    page remote http://finance.rambler.ru/currency/world/?code=USD $
+    page remote http://finance.rambler.ru/currency/world/?code=USD 30,1851
+    page remote http://finance.rambler.ru/currency/world/?code=USD &minus;0,0591
+    page remote http://finance.rambler.ru/currency/world/?code=EUR &euro;
+    page remote http://finance.rambler.ru/currency/world/?code=EUR 43,4605
+    page remote http://finance.rambler.ru/currency/world/?code=EUR +0,0722
+    page remote http://finance.rambler.ru/calculators/currency/ Валютный калькулятор
+    page remote http://afisha.rambler.ru Афиша
+    image local /img/c40x40/972a3519297db35d7ef1ddb12ca27423/afisha.rambler.ru/images/event/2009/12/25/1262680128_78807.jpg 
+    page remote http://afisha.rambler.ru/event.html?id=31420330 
+    page remote http://afisha.rambler.ru/event.html?id=31420330 Сестры по крови
+    page remote http://afisha.rambler.ru/schedule.html?eg=11455728 Кино
+    image local /img/c40x40/2bd122f2f7308c3abe473e9f418c63c9/afisha.rambler.ru/images/event/2009/12/25/1262679942_86888.jpg 
+    page remote http://afisha.rambler.ru/event.html?id=31420331 
+    page remote http://afisha.rambler.ru/event.html?id=31420331 Счастливый конец
+    page remote http://afisha.rambler.ru/schedule.html?eg=11455728 Кино
+    page remote http://audio.rambler.ru/radio.html Радио
+    page remote http://tv.rambler.ru/10832/index.html ТВ-программа
+    image local /i/0.gif 
+    page remote http://tv.rambler.ru/10832/index.html?channel_id=1  
+    page remote http://tv.rambler.ru/10832/event.html?event=43331708 Мыс страха
+    image local /i/0.gif 
+    page remote http://tv.rambler.ru/10832/index.html?channel_id=2  
+    page remote http://tv.rambler.ru/10832/event.html?event=43331700 Последний самурай
+    image local /i/0.gif 
+    page remote http://tv.rambler.ru/10832/index.html?channel_id=4  
+    page remote http://tv.rambler.ru/10832/event.html?event=43331856 Бальзаковский возраст, или все мужики&nbsp;&mdash; сво&hellip;. (10-я&nbsp;&mdash; 12-я серии)
+    script remote http://images.rambler.ru/_swfbanner.js 
+    image remote http://images.rambler.ru/upl/r4/2009/11/24/190.jpg 
+    page remote http://ad4.rambler.ru/roff/ban.clk?pg=6806%26bn=176086 
+    image local /i/0.gif 
+    page local http://www.rambler.ru/doc/vacancy.shtml  Работай в Рамблере
+    page local http://www.rambler.ru/doc/advert/ Разместить рекламу
+    image local /i/0.gif 
+    page remote http://www.begun.ru/adv_begun/  Разместить рекламу в &laquo;Бегуне&raquo;
+    page remote http://help.rambler.ru/feedback.html?s=44761 Выскажись о странице
+    page local http://www.rambler.ru/doc/about.shtml Рамблер
+http://zenzone.ru
+    css local i/st.css 
+    script local i/scr.js 
+    image local i/logo.jpg 
+    image local http://www.zenzone.ru/f/main_imgs/25322974812_3 kopijal.jpg 
+    page local shoping.htm КАК СДЕЛАТЬ ПОКУПКУ
+    page local about.htm О МАГАЗИНЕ
+    page local shops.htm АДРЕСА МАГАЗИНОВ
+    page local http://www.zenzone.ru/contacts.htm КОНТАКТЫ
+    page local /phorum/ ОБРАТНАЯ СВЯЗЬ
+    page local http://www.zenzone.ru/luxury_world/page_1.htm МИР РОСКОШИ
+    page local /articles/article_123.htm FAQ
+    image local i/ichome.gif 
+    page local ../ 
+    image local i/iccont.gif 
+    page local contacts.htm 
+    image local i/icmap.gif 
+    page local map.htm 
+    image local i/basket.gif 
+    page local http://www.zenzone.ru/basket.htm Оформить покупку
+    image local i/furth.gif 
+    page local basket.htm 
+    page local http://www.zenzone.ru/register.htm регистрация
+    page remote http://deluxe.zenzone.ru/ Элитные украшения
+    image local i/mnumark_elite.gif 
+    page remote http://deluxe.zenzone.ru/?goto=extravaganza Extravaganza collection
+    image local i/mnumark_elite.gif 
+    page remote http://deluxe.zenzone.ru/?goto=versailles Versailles collection
+    image local i/mnumark_elite.gif 
+    page remote http://deluxe.zenzone.ru/?goto=vintage Vintage collection
+    image local i/mnumark_elite.gif 
+    page remote http://deluxe.zenzone.ru/?goto=luxury Luxury silver
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=2 ИЗДЕЛИЯ ИЗ СЕРЕБРА
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=2&f_date=2009-12-17 НОВИНКИ
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%E5%F0%FC%E3%E8&f_group_id=2 Серьги
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%E5%F0%FC%E3%E8+%2B+%EF%EE%E4%E2%E5%F1%EA%E0&f_group_id=2 Серьги + подвеска
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%F6%E0&f_group_id=2 Кольца
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%F6%EE+%2B+%F1%E5%F0%FC%E3%E8&f_group_id=2 Кольцо + серьги
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%E0%F1%EB%E5%F2%FB&f_group_id=2 Браслеты
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%E5&f_group_id=2 Колье
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%E5+%2B+%F1%E5%F0%FC%E3%E8&f_group_id=2 Колье + серьги
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CF%EE%E4%E2%E5%F1%EA%E8&f_group_id=2 Подвески
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CF%EE%E4%E2%E5%F1%EA%E0+%2B+%EA%EE%EB%FC%F6%EE&f_group_id=2 Подвеска + кольцо
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%EE%F8%E8&f_group_id=2 Броши
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D6%E5%EF%EE%F7%EA%E8&f_group_id=2 Цепочки
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F3%F1%FB&f_group_id=2 Бусы
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D7%E0%F1%FB&f_group_id=2 Часы
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C7%E0%EF%EE%ED%EA%E8&f_group_id=2 Запонки
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C7%E0%E6%E8%EC%FB+%E4%EB%FF+%E3%E0%EB%F1%F2%F3%EA%EE%E2&f_group_id=2 Зажимы для галстуков
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%F3%E2%E5%ED%E8%F0%FB+%E8+%EF%EE%F1%F3%E4%E0&f_group_id=2 Сувениры и посуда
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D8%ED%F3%F0%EA%E8&f_group_id=2 Шнурки
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=3 ИЗДЕЛИЯ ИЗ СТАЛИ
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=3&f_date=2009-12-17 НОВИНКИ
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D1%E5%F0%FC%E3%E8&f_group_id=3 Серьги
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%F6%E0&f_group_id=3 Кольца
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%E0%F1%EB%E5%F2%FB&f_group_id=3 Браслеты
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EE%EB%FC%E5&f_group_id=3 Колье
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CF%EE%E4%E2%E5%F1%EA%E8&f_group_id=3 Подвески
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D6%E5%EF%EE%F7%EA%E8&f_group_id=3 Цепочки
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C7%E0%EF%EE%ED%EA%E8+%E8+%E7%E0%E6%E8%EC%FB&f_group_id=3 Запонки и зажимы
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D8%ED%F3%F0%EA%E8&f_group_id=3 Шнурки
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=8 ИЗДЕЛИЯ ИЗ ЗОЛОТА
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%F0%E5%F1%F2%FB+%E8+%E8%EA%EE%ED%FB&f_group_id=8 Кресты и иконы
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=6 ПИРСИНГ
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%CA%EB%E0%F1%F1%E8%F7%E5%F1%EA%E8%E9+%EF%E8%F0%F1%E8%ED%E3&f_group_id=6 Классический пирсинг
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D4%E8%E3%F3%F0%ED%FB%E9+%EF%E8%F0%F1%E8%ED%E3&f_group_id=6 Фигурный пирсинг
+    page local http://www.zenzone.ru/catalog/products.htm?f_group_id=4 УКРАШЕНИЯ ИЗ ДРУГИХ МАТЕРИАЛОВ
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C0%EC%F3%EB%E5%F2%FB&f_group_id=4 Амулеты
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F0%E0%F1%EB%E5%F2%FB&f_group_id=4 Браслеты
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%C1%F3%F1%FB&f_group_id=4 Бусы
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D8%ED%F3%F0%EA%E8&f_group_id=4 Шнурки
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_section_id=%D0%E0%E7%ED%EE%E5&f_group_id=4 Разное
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=42&menu=1 Bali collection
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=29&menu=1 Casual style
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=73&menu=1 Circle of life
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=49&menu=1 Classical collection
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=61&menu=1 Cubism collection
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=41&menu=1 Diamond and silver collection
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=35&menu=1 Energy
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=44&menu=1 Epatage collection
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=70&menu=1 Ethno Chic
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=56&menu=1 For men
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=51&menu=1 Fresh wind of freedom- Ethnic collection
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=58&menu=1 Gothic & Rock collection
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=46&menu=1 Individualist collection
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=43&menu=1 Platinum collection
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=30&menu=1 R'n'B style
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=57&menu=1 Romance collection
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=64&menu=1 Spring collection -  season 2009
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=59&menu=1 Swarovski Elements
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=25&menu=1 Винтаж
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=63&menu=1 Коллекция украшений
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=75&menu=1 Коллекция украшений "Счастливый Топаз"
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=71&menu=1 Коллекция украшений с ониксом
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=74&menu=1 Коллекция украшений с опалом.
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=77&menu=1 Коллекция украшений с позолотой.
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=69&menu=1 Коллекция украшений с рубином
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=72&menu=1 Коллекция украшений с хризолитом
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=68&menu=1 Коллекция украшений с жемчугом.
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=67&menu=1 Коллекция украшений с изумрудом
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=62&menu=1 Коллекция украшений с сапфиром
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=48&menu=1 Коллекция: 
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=34&menu=1 Комплекты: Подвески + серьги.
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=65&menu=1 Тонкости Востока
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=31&menu=1 Глянцевая мечта
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=21&menu=1 Азбука Востока
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_theme_id=13&menu=1 К 8 марта
+    image local i/mnumark.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_theme_id=14&menu=1 Лечебные магнитные браслеты
+    image local f/imgs/vnim.jpg 
+    page local http://www.zenzone.ru/shoping.htm 
+    image local f/imgs/ro.jpg 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=57&menu=1 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=43 Platinum collection
+    image local http://www.zenzone.ru/f/products/006.01.21sk-00479_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_55476.htm 
+    page local http://www.zenzone.ru/catalog/product_55476.htm Серьги Серебро 925, циркон
+    page local http://www.zenzone.ru/catalog/product_55476.htm 006.01.21СК-00479
+    image local i/2basket.gif 
+    image local http://www.zenzone.ru/f/celebrities/celebs_hdr.png 
+    image local http://www.zenzone.ru/f/celebrities/main.jpg 
+    image local i/celebs_more.gif 
+    page local http://www.zenzone.ru/celebrities_1.htm 
+                           
+                           
+                           Фотосессия Виктории Лопыревой для журнала &laquo;Moda Topical&raquo;
+              
+            
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=42 Bali collection
+    image local http://www.zenzone.ru/f/products/005.03.22-00284_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_44243.htm 
+    page local http://www.zenzone.ru/catalog/product_44243.htm Браслет серебро 925
+    page local http://www.zenzone.ru/catalog/product_44243.htm 005.03.22-00284
+    image local i/2basket.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=51 Fresh wind of freedom- Ethnic collection
+    image local http://www.zenzone.ru/f/products/017.05.21-01645_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_46682.htm 
+    page local http://www.zenzone.ru/catalog/product_46682.htm Подвеска Серебро 925, раух топаз
+    page local http://www.zenzone.ru/catalog/product_46682.htm 017.05.21-01645
+    image local i/2basket.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=31 Глянцевая мечта
+    image local http://www.zenzone.ru/f/products/1-01525_1871_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_36997.htm 
+    page local http://www.zenzone.ru/catalog/product_36997.htm Кольцо серебро 925
+    page local http://www.zenzone.ru/catalog/product_36997.htm 001.02.21-01525
+    image local i/2basket.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=44 Epatage collection
+    image local http://www.zenzone.ru/f/products/1-01678_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_44392.htm 
+    page local http://www.zenzone.ru/catalog/product_44392.htm Кольцо серебро 925, топаз
+    page local http://www.zenzone.ru/catalog/product_44392.htm 001.02.21-01678
+    image local i/2basket.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=21 Азбука Востока
+    image local http://www.zenzone.ru/f/products/001.05.22-00299_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_39445.htm 
+    page local http://www.zenzone.ru/catalog/product_39445.htm Восточная подвеска серебро 925
+    page local http://www.zenzone.ru/catalog/product_39445.htm 001.05.22-00299
+    image local i/2basket.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=41 Diamond and silver collection
+    image local http://www.zenzone.ru/f/products/007.16.21ksp-00025_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_42573.htm 
+    page local http://www.zenzone.ru/catalog/product_42573.htm Комплект украшений серьги+подвески серебро 925,3 бриллианта.-0,03
+    page local http://www.zenzone.ru/catalog/product_42573.htm 007.16.21КСП-00025
+    image local i/2basket.gif 
+    page local http://www.zenzone.ru/catalog/products.htm?f_style_id=49 Classical collection
+    image local http://www.zenzone.ru/f/products/003.05.21pk-00014_s.jpg 
+    page local http://www.zenzone.ru/catalog/product_42698.htm 
+    page local http://www.zenzone.ru/catalog/product_42698.htm Подвеска Серебро 925, иолит
+    page local http://www.zenzone.ru/catalog/product_42698.htm 003.05.21ПК-00014
+    image local i/2basket.gif 
+    image local f/luxury_world/3135bir_s.jpg 
+    image local f/luxury_world/601new_ms.jpg 
+    image local f/luxury_world/9254card_00.jpg 
+    page local http://www.zenzone.ru/luxury_world/art_73.htm (читать дальше)
+    page local http://www.zenzone.ru/luxury_world/art_74.htm (читать дальше)
+    page local http://www.zenzone.ru/luxury_world/art_75.htm (читать дальше)
+    page local http://www.zenzone.ru/luxury_world/page_1.htm ПЕРЕЙТИ В АРХИВ
+    page local /articles/ ПОЛЕЗНАЯ ИНФОРМАЦИЯ
+    page local http://www.zenzone.ru/articles/article_131.htm Подарочные карты Zen Zone.
+    page local http://www.zenzone.ru/articles/article_50.htm Как выбрать свой камень?
+    page local http://www.zenzone.ru/articles/article_100.htm Энциклопедия камней
+    page local http://www.zenzone.ru/articles/article_116.htm Скидки
+    page local http://www.zenzone.ru/articles/article_41.htm Cоглашение
+    page local http://www.zenzone.ru/articles/article_44.htm Металлы используемые Zen Zone
+    page local /articles/article_129.htm Пресса
+    page local http://www.zenzone.ru/vacancy.htm Вакансии
+    page local /articles/ Полезная информация
+    page local /feedback/ Жалобы и предложения
+    page local map.htm Карта сайта
+    page local /resources/ Ресурсы по теме
+    image local i/logodecl.jpg 
+    page local ../ 
+    page remote http://www.shogo.ru/ Создание сайта, продвижение сайта
+    page remote http://www.shogo-advert.ru/ реклама в интернете
+    page remote http://cyber-kid.ru/ детские коляски
+    image remote http://de.cd.b1.a1.top.list.ru/counter?js=na;id=1170990;t=68 
+    page remote http://top.mail.ru/jump?from=1170990 
+    image remote http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif 
+    page remote http://top100.rambler.ru/top100/ 
+
+    script remote http://bs.yandex.ru/resource/watch.js 
+    image remote http://bs.yandex.ru/watch/101228 
+http://linux.org.ru
+    css local /common.css 
+    css local /black/hover.css 
+    script remote http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js 
+    script local /js/head.js 
+    css local section-rss.jsp?section=1 
+    css local /search.jsp 
+    css local / 
+    script local /js/lor.js ;
+    css local /black/combined.css 
+    css local /favicon.ico 
+    image local /black/lorlogo-try.png 
+    page local / Новости
+    page local /wiki/en/Linux O linux
+    page local /wiki/en/%D0%94%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%B8%D0%B2%D1%8B Дистрибутивы
+    page local server.jsp О сервере
+    page local view-news.jsp?section=3 Галерея
+    page local view-section.jsp?section=2 Форум
+    page local /tracker.jsp Сообщения
+    page local /wiki Wiki
+    page local search.jsp Поиск
+    image local /adv/linux46860_2.gif 
+    page remote http://www.linuxcenter.ru/linuxformat-2010 
+    
+  
+    page local /register.jsp Регистрация
+    page local /login.jsp Вход
+    image local /black/pingvin.gif 
+    image remote http://top.list.ru/counter?id=71642 
+    page local view-news.jsp?section=1 Новости
+    page local view-message.jsp?msgid=4424585&amp;lastmod=1263163088973 Установлен новый рекорд вычисления числа Пи
+    image local /black/img/general-logo.png 
+    page local view-news.jsp?section=1&amp;group=4 
+    page remote http://en.wikipedia.org/wiki/Chudnovsky_algorithm формуле Чудовского
+    page remote http://en.wikipedia.org/wiki/Fabrice_Bellard Фабрис Беллар
+    page remote http://en.wikipedia.org/wiki/Bellard%27s_formula формулу
+    page remote http://bellard.org/pi/pi2700e9/announce.html Анонс
+    page local view-news.jsp?tag=fedora fedora
+    page local view-news.jsp?tag=pi pi
+    page local whois.jsp?nick=bbk123 *
+    page local comment-message.jsp?msgid=4424585 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4424585&lastmod=1263163088973 15&nbsp;комментариев
+    page local view-message.jsp?msgid=4417337&amp;lastmod=1263163120584 Датские школьники жалуются на OpenOffice
+    image local /black/img/openoffice.png 
+    page local view-news.jsp?section=1&amp;group=10980 
+    page remote http://lyngby-taarbaek.lokalavisen.dk/klagebrev-fra-virum-skoles-elevr%25C3%25A5d-/20100106/laeserbreve/100109623 сайте
+    page remote http://anotherubuntu.blogspot.com/2010/01/danish-schoolchildren-complaints-about.html Подробности (англ.)
+    page local view-news.jsp?tag=openoffice openoffice
+    page local view-news.jsp?tag=%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F+%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0 история успеха
+    page local view-news.jsp?tag=%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 образование
+    page local whois.jsp?nick=Sith *
+    page local comment-message.jsp?msgid=4417337 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4417337 416&nbsp;комментариев
+    page local view-message.jsp?msgid=4417337&amp;page=1 2
+    page local view-message.jsp?msgid=4417337&amp;page=2 3
+    page local view-message.jsp?msgid=4417337&amp;page=3 4
+    page local view-message.jsp?msgid=4417337&amp;page=4 5
+    page local view-message.jsp?msgid=4417337&amp;page=5 6
+    page local view-message.jsp?msgid=4417337&amp;page=6 7
+    page local view-message.jsp?msgid=4417337&amp;page=7 8
+    page local view-message.jsp?msgid=4417337&lastmod=1263163120584&amp;page=8 9
+    page local view-message.jsp?msgid=4420884&amp;lastmod=1263162703316 ANI, новый язык программирования
+    image local /black/img/opensource-logo.png 
+    page local view-news.jsp?section=1&amp;group=6 
+    page remote http://code.google.com/p/anic/ Подробности
+    page local view-news.jsp?tag=ani ani
+    page local view-news.jsp?tag=%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 программирование
+    page local whois.jsp?nick=Karapuz *
+    page local comment-message.jsp?msgid=4420884 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4420884 124&nbsp;комментария
+    page local view-message.jsp?msgid=4420884&amp;page=1 2
+    page local view-message.jsp?msgid=4420884&lastmod=1263162703316&amp;page=2 3
+    page local view-message.jsp?msgid=4422178&amp;lastmod=1263161293274 VIA Telecom присоединится к Open Handset Alliance
+    image local /black/img/pda-logo.png 
+    page local view-news.jsp?section=1&amp;group=19103 
+    page remote http://www.via.com.tw/ VIA
+    page remote http://openhandsetalliance.com/ Open Handset Alliance
+    page remote http://www.linux-magazine.com/Online/News/VIA-Telecom-to-Join-Open-Handset-Alliance Подробности
+    page local view-news.jsp?tag=android android
+    page local view-news.jsp?tag=open+handset+alliance open handset alliance
+    page local view-news.jsp?tag=via via
+    page local whois.jsp?nick=Sith *
+    page local comment-message.jsp?msgid=4422178 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4422178&lastmod=1263161293274 3&nbsp;комментария
+    page local view-message.jsp?msgid=4422697&amp;lastmod=1263160886159 Торговое соглашение между ЕС и Кореей ставит разработчиков под угрозу
+    image local /black/img/opensource-logo.png 
+    page local view-news.jsp?section=1&amp;group=6 
+    page remote http://www.ffii.org/ FFII
+    page remote http://trade.ec.europa.eu/doclib/press/index.cfm?id=443 договор
+    page remote http://action.ffii.org/acta/korea Анализ FFII
+    page remote http://www.linux-magazine.com/Online/News/FFII-EU-Trade-Agreement-with-Korea-Endangers-Developers Подробности
+    page local view-news.jsp?tag=opensource opensource
+    page local view-news.jsp?tag=%D0%B5%D0%B2%D1%80%D0%BE%D1%81%D0%BE%D1%8E%D0%B7 евросоюз
+    page local view-news.jsp?tag=%D0%BF%D0%B0%D1%82%D0%B5%D0%BD%D1%82%D1%8B патенты
+    page local whois.jsp?nick=Sith *
+    page local comment-message.jsp?msgid=4422697 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4422697&lastmod=1263160886159 24&nbsp;комментария
+    page local view-message.jsp?msgid=4415986&amp;lastmod=1263163202839 Новая игра «Карантин» на INSTEAD 1.0.5
+    image local /black/img/games-logo.png 
+    page local view-news.jsp?section=1&amp;group=19104 
+    page remote http://code.google.com/p/instead-games/wiki/Screenshots Скриншоты.
+    page remote http://instead-games.googlecode.com Игры для INSTEAD.
+    page remote http://instead.pinebrush.com Форум.
+    page remote http://instead.googlecode.com Подробности
+    page local view-news.jsp?tag=instead instead
+    page local view-news.jsp?tag=stead stead
+    page local view-news.jsp?tag=%D0%B8%D0%B3%D1%80%D1%8B игры
+    page local view-news.jsp?tag=%D0%BA%D0%B2%D0%B5%D1%81%D1%82 квест
+    page local whois.jsp?nick=gloomy *
+    page local comment-message.jsp?msgid=4415986 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4415986 106&nbsp;комментариев
+    page local view-message.jsp?msgid=4415986&amp;page=1 2
+    page local view-message.jsp?msgid=4415986&lastmod=1263163202839&amp;page=2 3
+    page local view-message.jsp?msgid=4414779&amp;lastmod=1263160887811 Релиз GCompris 9.0
+    image local /black/img/opensource-logo.png 
+    page local view-news.jsp?section=1&amp;group=6 
+    page remote http://sourceforge.net/projects/gcompris/files/ Скачивайте
+    page remote http://gcompris.net/Release-9 Подробности
+    page local whois.jsp?nick=ins3y3d *
+    page local comment-message.jsp?msgid=4414779 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4414779&lastmod=1263160887811 25&nbsp;комментариев
+    page local view-message.jsp?msgid=4417010&amp;lastmod=1263162874821 Вышел 7'' Linux-нетбук за $99
+    image local /black/img/hardware-logo.png 
+    page local view-news.jsp?section=1&amp;group=6205 
+    page remote http://www.cherrypal.com/shop.php Он-лайн магазин
+    page remote http://oss-it.ru/102 Подробности
+    page local view-news.jsp?tag=debian debian
+    page local view-news.jsp?tag=embedded+linux embedded linux
+    page local view-news.jsp?tag=netbook netbook
+    page local view-news.jsp?tag=ubuntu ubuntu
+    page local view-news.jsp?tag=%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 образование
+    page local whois.jsp?nick=federk *
+    page local comment-message.jsp?msgid=4417010 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4417010 98&nbsp;комментариев
+    page local view-message.jsp?msgid=4417010&lastmod=1263162874821&amp;page=1 2
+    page local view-message.jsp?msgid=4415301&amp;lastmod=1263160187614 MSI представила первый нетбук с предустановленной Moblin
+    image local /black/img/hardware-logo.png 
+    page local view-news.jsp?section=1&amp;group=6205 
+    page remote http://www.novell.com/news/press/msi-ships-first-netbook-powered-by-suse-moblin-from-novell Источник
+    page local view-news.jsp?tag=moblin moblin
+    page local view-news.jsp?tag=msi msi
+    page local view-news.jsp?tag=novell novell
+    page local view-news.jsp?tag=suse suse
+    page local whois.jsp?nick=yoghurt *
+    page local comment-message.jsp?msgid=4415301 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4415301&lastmod=1263160187614 36&nbsp;комментариев
+    page local view-message.jsp?msgid=4419499&amp;lastmod=1263157585484 Отчет о GNU Hackers Meeting 2009
+    image local /black/img/gnu-logo.png 
+    page local view-news.jsp?section=1&amp;group=196 
+    page remote http://www.fsf.org/ Free Software Foundation
+    page remote http://www.fsfe.org/ Free Software Foundation Europe
+    page remote http://www.gnu.org/ghm/2009/ Подробности
+    page local view-news.jsp?tag=emacs emacs
+    page local view-news.jsp?tag=gnu gnu
+    page local view-news.jsp?tag=gpg gpg
+    page local view-news.jsp?tag=%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D1%8F конференция
+    page local view-news.jsp?tag=%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 программирование
+    page local whois.jsp?nick=sinister666 *
+    page local comment-message.jsp?msgid=4419499 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4419499&lastmod=1263157585484 21&nbsp;комментарий
+    page local view-message.jsp?msgid=4421122&amp;lastmod=1263162350776 RawTherapee сменил лицензию на GPL
+    image local /black/img/opensource-logo.png 
+    page local view-news.jsp?section=1&amp;group=6 
+    page remote http://www.rawtherapee.com/rawtherapee30src.tgz Исходные тексты RawTherapee 3.0aplha1 (GPL)
+    page remote http://www.rawtherapee.com Подробности
+    page local view-news.jsp?tag=gnu gnu
+    page local view-news.jsp?tag=%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0 графика
+    page local view-news.jsp?tag=%D1%84%D0%BE%D1%82%D0%BE фото
+    page local whois.jsp?nick=saper *
+    page local comment-message.jsp?msgid=4421122 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4421122 116&nbsp;комментариев
+    page local view-message.jsp?msgid=4421122&amp;page=1 2
+    page local view-message.jsp?msgid=4421122&lastmod=1263162350776&amp;page=2 3
+    page local view-message.jsp?msgid=4417802&amp;lastmod=1263138554620 GMP 5.0.0 (GNU Multiple Precision Arithmetic Library)
+    image local /black/img/gnu-logo.png 
+    page local view-news.jsp?section=1&amp;group=196 
+    page remote http://gmplib.org/gmp5.0.html Полный список изменений
+    page remote http://gmplib.org/ Подробности
+    page local view-news.jsp?tag=gnu gnu
+    page local view-news.jsp?tag=science science
+    page local view-news.jsp?tag=%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5 программирование
+    page local whois.jsp?nick=GArik *
+    page local comment-message.jsp?msgid=4417802 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4417802 79&nbsp;комментариев
+    page local view-message.jsp?msgid=4417802&lastmod=1263138554620&amp;page=1 2
+    page local view-message.jsp?msgid=4418179&amp;lastmod=1263147759576 WPClipart 8.0
+    image local /black/img/general-logo.png 
+    page local view-news.jsp?section=1&amp;group=4 
+    page remote http://www.wpclipart.com/browse.html доступна для просмотра и онлайн
+    page remote http://www.wpclipart.com/downloads.html Скачать можно здесь
+    page local view-news.jsp?tag=clipart clipart
+    page local view-news.jsp?tag=multimedia multimedia
+    page local view-news.jsp?tag=office office
+    page local view-news.jsp?tag=openoffice openoffice
+    page local view-news.jsp?tag=%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA%D0%B0 графика
+    page local whois.jsp?nick=Silvy *
+    page local comment-message.jsp?msgid=4418179 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4418179&lastmod=1263147759576 45&nbsp;комментариев
+    page local view-message.jsp?msgid=4418763&amp;lastmod=1263162199142 Столлман о бизнес-модели, основанной на продаже исключений к GPL
+    image local /black/img/gnu-logo.png 
+    page local view-news.jsp?section=1&amp;group=196 
+    page remote http://www.fsf.org/ Free Software Foundation
+    page remote http://keionline.org/sites/default/files/ec_letter_mysql_oct19.pdf коллективным протестом
+    page remote http://www.fsf.org/blogs/rms/selling-exceptions Статья на сайте FSF (англ.)
+    page local view-news.jsp?tag=fsf fsf
+    page local view-news.jsp?tag=stallman stallman
+    page local whois.jsp?nick=sinister666 *
+    page local comment-message.jsp?msgid=4418763 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4418763 459&nbsp;комментариев
+    page local view-message.jsp?msgid=4418763&amp;page=1 2
+    page local view-message.jsp?msgid=4418763&amp;page=2 3
+    page local view-message.jsp?msgid=4418763&amp;page=3 4
+    page local view-message.jsp?msgid=4418763&amp;page=4 5
+    page local view-message.jsp?msgid=4418763&amp;page=5 6
+    page local view-message.jsp?msgid=4418763&amp;page=6 7
+    page local view-message.jsp?msgid=4418763&amp;page=7 8
+    page local view-message.jsp?msgid=4418763&amp;page=8 9
+    page local view-message.jsp?msgid=4418763&lastmod=1263162199142&amp;page=9 10
+    page local view-message.jsp?msgid=4415359&amp;lastmod=1263157211502 Проект OpenStreetMap собрал более 200 000 добровольцев
+    image local /black/img/opensource-logo.png 
+    page local view-news.jsp?section=1&amp;group=6 
+    page remote http://OpenStreetMap.org/ OpenStreetMap
+    page remote http://www.opengeodata.org/2010/01/05/200k-osm-users/ блоге
+    page remote http://ru.wikipedia.org/wiki/CC-BY-SA_2.0 CC-BY-SA 2.0
+    page remote http://www.computerworlduk.com/toolbox/open-source/open-source-business/news/index.cfm?newsid=18203 Подробности (англ.)
+    page local view-news.jsp?tag=opensource opensource
+    page local view-news.jsp?tag=%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F+%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0 история успеха
+    page local view-news.jsp?tag=%D0%BA%D0%B0%D1%80%D1%82%D1%8B карты
+    page local whois.jsp?nick=Sith *
+    page local comment-message.jsp?msgid=4415359 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4415359 105&nbsp;комментариев
+    page local view-message.jsp?msgid=4415359&amp;page=1 2
+    page local view-message.jsp?msgid=4415359&lastmod=1263157211502&amp;page=2 3
+    page local view-message.jsp?msgid=4416890&amp;lastmod=1263162903554 Вышел Wine 1.1.36
+    image local /black/img/opensource-logo.png 
+    page local view-news.jsp?section=1&amp;group=6 
+    page remote http://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D1%84%D0%B8%D1%86%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%88%D0%B5%D0%B9%D0%B4%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C Shader Model 4
+    page remote http://ru.wikipedia.org/wiki/MinGW MinGW
+    page remote http://ru.wikipedia.org/wiki/MSHTML MSHTML
+    page remote http://en.wikipedia.org/wiki/New_Executable NE-файлов
+    page remote http://www.winehq.org/announce/1.1.36 Подробности
+    page local view-news.jsp?tag=wine wine
+    page local whois.jsp?nick=Root-msk *
+    page local comment-message.jsp?msgid=4416890 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4416890 281&nbsp;комментарий
+    page local view-message.jsp?msgid=4416890&amp;page=1 2
+    page local view-message.jsp?msgid=4416890&amp;page=2 3
+    page local view-message.jsp?msgid=4416890&amp;page=3 4
+    page local view-message.jsp?msgid=4416890&amp;page=4 5
+    page local view-message.jsp?msgid=4416890&lastmod=1263162903554&amp;page=5 6
+    page local view-message.jsp?msgid=4415360&amp;lastmod=1263128703736 Токийская биржа переходит на Linux
+    image local /black/img/money-logo.png 
+    page local view-news.jsp?section=1&amp;group=4228 
+    page remote http://www.bnet.com/2407-14061_23-377843.html Нетехнические подробности
+    page remote http://www.fujitsu.com/global/news/pr/archives/month/2010/20100108-01.html Технические подробности
+    page local view-news.jsp?tag=fujitsu fujitsu
+    page local view-news.jsp?tag=red+hat red hat
+    page local view-news.jsp?tag=%D0%B1%D0%B8%D1%80%D0%B6%D0%B0 биржа
+    page local view-news.jsp?tag=%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F+%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0 история успеха
+    page local whois.jsp?nick=GreyCat *
+    page local comment-message.jsp?msgid=4415360 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4415360 299&nbsp;комментариев
+    page local view-message.jsp?msgid=4415360&amp;page=1 2
+    page local view-message.jsp?msgid=4415360&amp;page=2 3
+    page local view-message.jsp?msgid=4415360&amp;page=3 4
+    page local view-message.jsp?msgid=4415360&amp;page=4 5
+    page local view-message.jsp?msgid=4415360&lastmod=1263128703736&amp;page=5 6
+    page local view-message.jsp?msgid=4413038&amp;lastmod=1263145013154 MIPS поместит Android в ТВ
+    image local /black/img/hardware-logo.png 
+    page local view-news.jsp?section=1&amp;group=6205 
+    page remote http://www.mips.com/ MIPS Technologies
+    page remote http://www.linuxinsider.com/story/MIPS-Puts-Android-on-TV-69039.html Подробности (англ.)
+    page local view-news.jsp?tag=android android
+    page local view-news.jsp?tag=embedded+linux embedded linux
+    page local view-news.jsp?tag=mips mips
+    page local view-news.jsp?tag=tv tv
+    page local whois.jsp?nick=Sith *
+    page local comment-message.jsp?msgid=4413038 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4413038 100&nbsp;комментариев
+    page local view-message.jsp?msgid=4413038&lastmod=1263145013154&amp;page=1 2
+    page local view-message.jsp?msgid=4408764&amp;lastmod=1263065996012 Freescale представила образец дизайна следующего поколения смартбуков
+    image local /black/img/hardware-logo.png 
+    page local view-news.jsp?section=1&amp;group=6205 
+    page remote http://freescale.com/ Freescale Semiconductor
+    page remote http://ru.wikipedia.org/wiki/ARM_(архитектура) ARM ®
+    page remote http://ru.wikipedia.org/wiki/Consumer_Electronics_Show международной выставке потребительской электроники
+    page remote http://media.corporate-ir.net/media_files/IROL/19/196520/1_4image1.jpg [ 1 ]
+    page remote http://media.corporate-ir.net/media_files/IROL/19/196520/1_4image2.jpg [ 2 ]
+    page remote http://media.corporate-ir.net/media_files/IROL/19/196520/1_4image3.jpg [ 3 ]
+    page remote http://media.corporate-ir.net/media_files/IROL/19/196520/1_4image4.jpg [ 4 ]
+    page remote http://media.freescale.com/phoenix.zhtml?c=196520&amp;p=irol-newsArticle&amp;ID=1370004&amp;highlight=&amp;tid=rsspr Подробности (англ.)
+    page local view-news.jsp?tag=arm arm
+    page local view-news.jsp?tag=freescale freescale
+    page local view-news.jsp?tag=linux linux
+    page local view-news.jsp?tag=smartbook smartbook
+    page local whois.jsp?nick=Sith *
+    page local comment-message.jsp?msgid=4408764 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4408764 297&nbsp;комментариев
+    page local view-message.jsp?msgid=4408764&amp;page=1 2
+    page local view-message.jsp?msgid=4408764&amp;page=2 3
+    page local view-message.jsp?msgid=4408764&amp;page=3 4
+    page local view-message.jsp?msgid=4408764&amp;page=4 5
+    page local view-message.jsp?msgid=4408764&lastmod=1263065996012&amp;page=5 6
+    page local view-message.jsp?msgid=4407544&amp;lastmod=1263039771645 JMule 0.5.6
+    image local /black/img/java-logo.png 
+    page local view-news.jsp?section=1&amp;group=26 
+    page remote http://jmule.org/?page=news Changelog
+    page remote http://jmule.org/?page=download Download
+    page remote http://jmule.org/ Подробности
+    page local view-news.jsp?tag=aspectj aspectj
+    page local view-news.jsp?tag=download download
+    page local view-news.jsp?tag=edonkey edonkey
+    page local view-news.jsp?tag=emule emule
+    page local view-news.jsp?tag=filesharing filesharing
+    page local view-news.jsp?tag=java java
+    page local view-news.jsp?tag=kad kad
+    page local view-news.jsp?tag=p2p p2p
+    page local view-news.jsp?tag=swt swt
+    page local whois.jsp?nick=example666 *
+    page local comment-message.jsp?msgid=4407544 Добавить&nbsp;комментарий
+    page local view-message.jsp?msgid=4407544 121&nbsp;комментарий
+    page local view-message.jsp?msgid=4407544&amp;page=1 2
+    page local view-message.jsp?msgid=4407544&lastmod=1263039771645&amp;page=2 3
+    page local view-news.jsp?section=1&amp;offset=20 ← предыдущие
+    page local add-section.jsp?section=1 добавить новость
+    page local section-rss.jsp?section=1 RSS
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?section=5 Опрос
+    page local /view-vote.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?vote=968 результаты
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?section=5 итоги прошедших опросов...
+    page local /add-poll.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6 добавить опрос
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4393779&amp;lastmod=1262973750395 Microsoft ищет специалиста против Linux
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4393779&amp;lastmod=1262973750395&amp;page=46 46
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4327531&amp;lastmod=1262940388228 GNOME выйдет из состава GNU Project?
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4327531&amp;lastmod=1262940388228&amp;page=20 20
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4336974&amp;lastmod=1262897148970 Вышли Mono 2.6 и MonoDevelop 2.2
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4336974&amp;lastmod=1262897148970&amp;page=16 16
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4344853&amp;lastmod=1262604217681 Разработчики Opera: модель разработки Open Source неэффективна
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4344853&amp;lastmod=1262604217681&amp;page=15 15
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4366415&amp;lastmod=1262710400413 Лоуренс Лессиг о свободе и FSF
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4366415&amp;lastmod=1262710400413&amp;page=14 14
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4377380&amp;lastmod=1262684309570 Функциональщина. Что выбрать?
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4377380&amp;lastmod=1262684309570&amp;page=13 13
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4335258&amp;lastmod=1263132544806 новый язык. Еще один подход. 
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4335258&amp;lastmod=1263132544806&amp;page=11 11
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4363338&amp;lastmod=1263141682506 Opera отказывается от использования библиотеки Qt на Linux 
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4363338&amp;lastmod=1263141682506&amp;page=11 11
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4318473&amp;lastmod=1261570500684 В каталоге GNOME-Look зафиксировано наличие вредоносного ПО 
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4318473&amp;lastmod=1261570500684&amp;page=11 11
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4418763&amp;lastmod=1263162199142 Столлман о бизнес-модели, основанной на продаже исключений к GPL
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4418763&amp;lastmod=1263162199142&amp;page=10 10
+    page local view-news.jsp?section=3 Галерея
+    image local gallery/4417182-icon.jpg 
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4417182 
+          
+            
+              
+            
+            
+          
+        
+    page local /whois.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?nick=mixrin mixrin
+    image local gallery/4417522-icon.jpg 
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4417522 
+          
+            
+              
+            
+            
+          
+        
+    page local /whois.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?nick=stalkerg stalkerg
+    image local gallery/4419822-icon.jpg 
+    page local /view-message.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?msgid=4419822 
+          
+            
+              
+            
+            
+          
+        
+    page local /whois.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?nick=mirror mirror
+    page local view-news.jsp?section=3 другие скриншоты...
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=3d 3d
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=amd amd
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=android android
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=ati ati
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=bsd bsd
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=debian debian
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=embedded+linux embedded linux
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=fedora fedora
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=firefox firefox
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=freebsd freebsd
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=gentoo gentoo
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=gnome gnome
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=gnu gnu
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=google google
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=gpl gpl
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=intel intel
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=java java
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=kde kde
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=kde4 kde4
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=linux linux
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=microsoft microsoft
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=mono mono
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=mozilla mozilla
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=nokia nokia
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=novell novell
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=nvidia nvidia
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=openoffice openoffice
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=opensource opensource
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=python python
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=qt qt
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=redhat redhat
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=sun sun
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=ubuntu ubuntu
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=web web
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=windows windows
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=wine wine
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%b1%d0%b5%d0%b7%d0%be%d0%bf%d0%b0%d1%81%d0%bd%d0%be%d1%81%d1%82%d1%8c безопасность
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%b2%d0%b8%d1%80%d1%82%d1%83%d0%b0%d0%bb%d0%b8%d0%b7%d0%b0%d1%86%d0%b8%d1%8f виртуализация
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%b3%d1%80%d0%b0%d1%84%d0%b8%d0%ba%d0%b0 графика
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%b4%d0%be%d0%ba%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d0%b0%d1%86%d0%b8%d1%8f документация
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%b4%d1%80%d0%b0%d0%b9%d0%b2%d0%b5%d1%80%d1%8b драйверы
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%b7%d0%b2%d1%83%d0%ba звук
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%b8%d0%b3%d1%80%d1%8b игры
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%b8%d0%bd%d1%82%d0%b5%d1%80%d0%b2%d1%8c%d1%8e интервью
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%b8%d1%81%d1%82%d0%be%d1%80%d0%b8%d1%8f+%d1%83%d1%81%d0%bf%d0%b5%d1%85%d0%b0 история успеха
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%ba%d0%be%d0%bd%d1%84%d0%b5%d1%80%d0%b5%d0%bd%d1%86%d0%b8%d1%8f конференция
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%be%d0%b1%d1%80%d0%b0%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5 образование
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%bf%d0%b0%d1%82%d0%b5%d0%bd%d1%82%d1%8b патенты
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d0%bf%d1%80%d0%be%d0%b3%d1%80%d0%b0%d0%bc%d0%bc%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5 программирование
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?tag=%d1%8f%d0%b4%d1%80%d0%be ядро
+    page local /view-news-archive.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?section=1 Архив Новостей
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2010&amp;month=1&amp;section=1 2010 Январь
+      (43)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=12&amp;section=1 2009 Декабрь
+      (202)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=11&amp;section=1 2009 Ноябрь
+      (197)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=10&amp;section=1 2009 Октябрь
+      (257)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=9&amp;section=1 2009 Сентябрь
+      (195)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=8&amp;section=1 2009 Август
+      (179)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=7&amp;section=1 2009 Июль
+      (212)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=6&amp;section=1 2009 Июнь
+      (163)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=5&amp;section=1 2009 Май
+      (170)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=4&amp;section=1 2009 Апрель
+      (151)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=3&amp;section=1 2009 Март
+      (154)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=2&amp;section=1 2009 Февраль
+      (146)
+    page local /view-news.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?year=2009&amp;month=1&amp;section=1 2009 Январь
+      (139)
+    page local /view-news-archive.jsp;jsessionid=19905D26BB7A0D56B7A37BA52DA90BD6?section=1  Предыдущие месяцы
+    image local /adv/tshirt.jpg 
+    page local /view-message.jsp?msgid=3989453  
+    page local /view-message.jsp?msgid=3989453 Заказ футболки Linux.org.ru
+    page local whois.jsp?nick=maxcom Максим Валянский
+    page remote http://www.ratel.ru НИИР-РадиоНет
+    image remote http://top100-images.rambler.ru/top100/banner-88x31-rambler-black2.gif 
+    page remote http://top100.rambler.ru/home?id=29833 
+    image remote http://top.list.ru/counter?id=71642;t=11;l=1 
+    page remote http://top.list.ru/jump?from=71642 
+    script remote http://counter.rambler.ru/top100.jcn?29833 
+    image remote http://counter.rambler.ru/top100.cnt?29833 
+http://microsoft.com
+    page local http://www.microsoft.com/en/us/default.aspx?redir=true United States English Microsoft Homepage
