@@ -7,7 +7,7 @@ namespace TestTask
     public TokenArea()
     {
       this.start = @"<area\b(?:""[^""]*""|'[^']*'|[^""'>])*>";
-      this.end = @"</area>";
+      this.end = @"";
 
       this._type = "page";
     }

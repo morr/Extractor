@@ -20,7 +20,7 @@ namespace TestTask
       }
 
       Extractor extractor = new Extractor(args[0], args[1]);
-      extractor.Run();
+      extractor.Run(5);
 
       Console.ReadKey();
     }

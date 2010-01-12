@@ -52,7 +52,13 @@ namespace TestTask
     protected string _url;
     public string url
     {
-      get { return this._url; }
+      get
+      {
+        if (this._zone == "local" && (this._url.IndexOf('/') != 0 || this._url.IndexOf('.') != 0))
+          return Regex.Replace(this._url, @"https?://(?:[^:]*:[^@]*@)?(:?www.)?([^/]+)", "", RegexOptions.IgnoreCase);
+        else
+          return this._url;
+      }
     }
 
     protected string _innerHTML;
@@ -78,21 +84,29 @@ namespace TestTask
       this._zone = "";
     }
 
-    public virtual void ProcessAttributes(string value)
+    public virtual void ProcessAttributes(string value, string base_)
     {
       Match match = Regex.Match(value, @"(?:href=|src=)(?:""(?<url>[^""]*)""|'(?<url>[^']*)'|(?<url>[^""'> ]*))", RegexOptions.IgnoreCase);
       if (match.Success)
-        this._url = match.Groups["url"].Value;
+      {
+        this._url = System.Web.HttpUtility.UrlPathEncode(match.Groups["url"].Value);
+        if (this._url.Length != 0 && this._url.IndexOf("://") == -1 && this._url.IndexOf('/') != 0)
+          this._url = base_ + this._url;
+      }
     }
 
     public virtual void ProcessInnerHTML(string value)
     {
-      this._innerHTML = Regex.Replace(value, @"<(?:""[^""]*""|'[^']*'|[^""'>])*>", "");
+      this._innerHTML = Regex.Replace(value, @"<!--(?:(?!-->).)*-->", "");
+      this._innerHTML = Regex.Replace(this._innerHTML, @"<(?:""[^""]*""|'[^']*'|[^""'>])*>", "");
+      this._innerHTML = Regex.Replace(this._innerHTML, @"[^\w \\]", " ");
+      this._innerHTML = this._innerHTML.Replace("\\", "\\\\");
+      this._innerHTML = this._innerHTML.Replace(" ", "\\ ");
     }
 
     public virtual string ToString()
     {
-      return this._type+" "+this._zone+" "+this._url+" "+this._innerHTML;
+      return this.type+" "+this.zone+" "+this.url+" "+this.innerHTML;
     }
 
     public abstract Object Clone();

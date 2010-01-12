@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
-using System.Net;
 using System.Collections.Generic;
-using System.Text;
 using System.Text.RegularExpressions;
+using System.Text;
+using System.Threading;
 
 namespace TestTask
 {
@@ -12,69 +12,80 @@ namespace TestTask
     private string _src;
     private string _dst;
 
-    private List<string> _sources;
+    private Queue<string> _sources;
+    private List<Token> _tokens;
+
+    private Mutex _queue_lock;
+    private Mutex _output_lock;
 
     public Extractor(string src, string dst)
     {
       this._src = src;
       this._dst = dst;
 
-      this._sources = new List<string>();
+      this._sources = new Queue<string>();
 
       StreamReader sr = new StreamReader(this._src);
       String line;
       while ((line = sr.ReadLine()) != null)
-        _sources.Add(line.Trim());
+        _sources.Enqueue(line.Trim());
+
+      this._queue_lock = new Mutex();
+      this._output_lock = new Mutex();
+
+      this._tokens = new List<Token>();
+      this._tokens.Add(new TokenA());
+      this._tokens.Add(new TokenComment());
+      this._tokens.Add(new TokenArea());
+      this._tokens.Add(new TokenImg());
+      this._tokens.Add(new TokenScript());
+      this._tokens.Add(new TokenLink());
+      this._tokens.Add(new TokenEmbed());
     }
 
-    public void Run()
+    public void Run(int threads_num)
     {
-      List<Token> tokens = new List<Token>();
-      tokens.Add(new TokenA());
-      tokens.Add(new TokenArea());
-      tokens.Add(new TokenImg());
-      tokens.Add(new TokenScript());
-      tokens.Add(new TokenLink());
-      tokens.Add(new TokenEmbed());
+      List<Thread> threads = new List<Thread>();
+      for (int i = 0; i < threads_num; i++)
+        threads.Add(new Thread(this.ProcessSources));
+      
+      foreach (Thread thread in threads)
+        thread.Start();
+      foreach (Thread thread in threads)
+        thread.Join();
+    }
 
-      foreach (String source in this._sources)
+    private void ProcessSources()
+    {
+      while (true)
       {
-        WebRequest request = WebRequest.Create(source);
-        WebResponse response = request.GetResponse();
-        Encoding encoding = Encoding.GetEncoding(1251);
-
-        Match charset = Regex.Match(response.ContentType, "charset=(?<charset>[^ ]+)", RegexOptions.IgnoreCase);
-        if (charset.Success)
+        // get source
+        this._queue_lock.WaitOne();
+        if (this._sources.Count == 0)
         {
-          try
-          {
-            encoding = Encoding.GetEncoding(charset.Groups["charset"].Value);
-          }
-          catch{}
+          this._queue_lock.ReleaseMutex();
+          break;
         }
-        string content = (new StreamReader(response.GetResponseStream(), encoding)).ReadToEnd();
+        string source = this._sources.Dequeue();
+        this._queue_lock.ReleaseMutex();
 
-        //Match meta_content = Regex.Match(content, @"<meta[^>]* 
-        //                                              (?:http-equiv=(?<dl>""|'|)content-type\k<dl>[^>]*)?
-        //                                              content=(?<dl>""|'|)[^""'>]*charset=(?<charset>[^""' ]+)[^""'>]*\k<dl>[^>]*
-        //                                              (?:http-equiv=(?<dl>""|'|)content-type\k<dl>[^>]*)?
-        //                                            [^>]*>", RegexOptions.IgnoreCase | RegexOptions.IgnorePatternWhitespace);
-        TextParser parser = new TextParser(tokens);
-        List<Token> data = parser.Process(content);
+        string content = PageLoader.Load(source);
 
-        string source_domain = Regex.Replace(source, @"https?://(?:[^:]*:[^@]*@)?(:?www.)?([^/]+).*", "$2");
-        Regex domain_test = new Regex(@"https?://(?:[^:]*:[^@]*@)?(:?www.)?"+source_domain+@"\b");
+        // parse content
+        List<Token> data = (new TextParser(content, source, this._tokens)).parsed_tokens;
 
-        StreamWriter sw = new StreamWriter(this._dst, true, Encoding.UTF8);
-        Console.WriteLine("{0} {1}", source, DateTime.Now.ToString("yyyy-MM-ddTHH:mm:sszzz"));
-        sw.WriteLine(source);
+        // save to file
+        this._output_lock.WaitOne();
+        StreamWriter sw = new StreamWriter(this._dst, true);
+        Console.WriteLine("{0} {1}", System.Web.HttpUtility.UrlPathEncode(source), DateTime.Now.ToString("yyyy-MM-ddTHH:mm:sszzz"));
+        sw.WriteLine("{0} {1}", System.Web.HttpUtility.UrlPathEncode(source), DateTime.Now.ToString("yyyy-MM-ddTHH:mm:sszzz"));
         foreach (Token item in data)
         {
-          item.zone = item.url.IndexOf("://") == -1 || domain_test.Match(item.url).Success ? "local" : "remote";
           Console.WriteLine("    {0}", item.ToString());
           sw.WriteLine("    {0}", item.ToString());
         }
         sw.Close();
+        this._output_lock.ReleaseMutex();
       }
     }
   }
