@@ -10,24 +10,24 @@ namespace TestTask
     private List<Token> _tokens;
     private string _tokenStart;
 
-    private List<Token> _parsed_tokens;
-    public List<Token> parsed_tokens
+    private List<Token> _parsedTokens;
+    public List<Token> parsedTokens
     {
-      get { return this._parsed_tokens; }
+      get { return this._parsedTokens; }
     }
 
-    private Stack<string> _parse_stack;
+    private Stack<string> _parseStack;
 
     private string _domain;
     private string _base;
 
-    private Regex _domain_test;
+    private Regex _domainTest;
 
     public TextParser(string data, string url, List<Token> tokens) 
     {
       this._tokens = tokens;
-      this._parsed_tokens = new List<Token>();
-      this._parse_stack = new Stack<String>();
+      this._parsedTokens = new List<Token>();
+      this._parseStack = new Stack<String>();
 
       this._tokenStart = "";
       foreach (Token token in this._tokens)
@@ -35,7 +35,7 @@ namespace TestTask
 
       Match url_match = Regex.Match(url, @"(?<base>https?://(?:[^:]*:[^@]*@)?(:?www.)?(?<domain>[^/]+)).*", RegexOptions.IgnoreCase);
       this._domain = url_match.Groups["domain"].Value;
-      this._domain_test = new Regex(@"https?://(?:[^:]*:[^@]*@)?(:?www.)?"+this._domain+@"\b");
+      this._domainTest = new Regex(@"https?://(?:[^:]*:[^@]*@)?(:?www.)?"+this._domain+@"\b");
       this._base = url_match.Groups["base"].Value;
       // attempt to find <base> tag in data
       Match mbase = Regex.Match(data, @"<base\s+href=(?:""(?<url>[^""]*)""|'(?<url>[^']*)'|(?<url>[^""'> ]*))[^>]*>", RegexOptions.IgnoreCase);
@@ -50,8 +50,8 @@ namespace TestTask
     private int Parse(string text, int position)
     {
       // find token
-      Regex rgx = new Regex(this._tokenStart+(this._parse_stack.Count != 0 ? "|"+this._parse_stack.Peek() : ""), RegexOptions.IgnoreCase);
-      string test = this._tokenStart + (this._parse_stack.Count != 0 ? "|" + this._parse_stack.Peek() : "");
+      Regex rgx = new Regex(this._tokenStart+(this._parseStack.Count != 0 ? "|"+this._parseStack.Peek() : ""), RegexOptions.IgnoreCase);
+      string test = this._tokenStart + (this._parseStack.Count != 0 ? "|" + this._parseStack.Peek() : "");
       Match match = rgx.Match(text, position);
       // return if nothing is found
       if (!match.Success)
@@ -59,9 +59,9 @@ namespace TestTask
 
       int start = match.Index;
       // return if token's end is found
-      if (this._parse_stack.Count != 0 && String.Compare(match.Value, this._parse_stack.Peek(), true) == 0)
+      if (this._parseStack.Count != 0 && String.Compare(match.Value, this._parseStack.Peek(), true) == 0)
       {
-        this._parse_stack.Pop();
+        this._parseStack.Pop();
         return start;
       }
 
@@ -69,17 +69,18 @@ namespace TestTask
       Token token = this.BuildToken(match.Value);
       token.ProcessAttributes(match.Value, this._base);
       if (token.zone.Length == 0)
-        token.zone = token.url.IndexOf("://") == -1 || this._domain_test.Match(token.url).Success ? "local" : "remote";
+        token.zone = token.url.IndexOf("://") == -1 || this._domainTest.Match(token.url).Success ? "local" : "remote";
 
       // find token's end
       int end;
       if (token.end != "")
       {
-        this._parse_stack.Push(token.end);
-
         // process other tokens inside this token and find token's end
         if (!token.skippable)
+        {
+          this._parseStack.Push(token.end);
           end = this.Parse(text, start + match.Value.Length);
+        }
         // or just find token's end
         else
         {
@@ -98,16 +99,16 @@ namespace TestTask
 
       // add token    
       if( token.url != "" )
-        this._parsed_tokens.Add(token);
+        this._parsedTokens.Add(token);
 
       // find next tokens
       int stack_size;
       do
       {
-        stack_size = this._parse_stack.Count;
+        stack_size = this._parseStack.Count;
         end = this.Parse(text, end + 1);
       }
-      while (stack_size == this._parse_stack.Count && end != -1);
+      while (stack_size == this._parseStack.Count && end != -1);
       return end;
     }
 

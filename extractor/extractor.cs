@@ -15,8 +15,8 @@ namespace TestTask
     private Queue<string> _sources;
     private List<Token> _tokens;
 
-    private Mutex _queue_lock;
-    private Mutex _output_lock;
+    private Mutex _queueLock;
+    private Mutex _outputLock;
 
     public Extractor(string src, string dst)
     {
@@ -30,8 +30,8 @@ namespace TestTask
       while ((line = sr.ReadLine()) != null)
         _sources.Enqueue(line.Trim());
 
-      this._queue_lock = new Mutex();
-      this._output_lock = new Mutex();
+      this._queueLock = new Mutex();
+      this._outputLock = new Mutex();
 
       this._tokens = new List<Token>();
       this._tokens.Add(new TokenA());
@@ -60,22 +60,22 @@ namespace TestTask
       while (true)
       {
         // get source
-        this._queue_lock.WaitOne();
+        this._queueLock.WaitOne();
         if (this._sources.Count == 0)
         {
-          this._queue_lock.ReleaseMutex();
+          this._queueLock.ReleaseMutex();
           break;
         }
         string source = this._sources.Dequeue();
-        this._queue_lock.ReleaseMutex();
+        this._queueLock.ReleaseMutex();
 
         string content = PageLoader.Load(source);
 
         // parse content
-        List<Token> data = (new TextParser(content, source, this._tokens)).parsed_tokens;
+        List<Token> data = (new TextParser(content, source, this._tokens)).parsedTokens;
 
         // save to file
-        this._output_lock.WaitOne();
+        this._outputLock.WaitOne();
         StreamWriter sw = new StreamWriter(this._dst, true);
         Console.WriteLine("{0} {1}", System.Web.HttpUtility.UrlPathEncode(source), DateTime.Now.ToString("yyyy-MM-ddTHH:mm:sszzz"));
         sw.WriteLine("{0} {1}", System.Web.HttpUtility.UrlPathEncode(source), DateTime.Now.ToString("yyyy-MM-ddTHH:mm:sszzz"));
@@ -85,7 +85,7 @@ namespace TestTask
           sw.WriteLine("    {0}", item.ToString());
         }
         sw.Close();
-        this._output_lock.ReleaseMutex();
+        this._outputLock.ReleaseMutex();
       }
     }
   }

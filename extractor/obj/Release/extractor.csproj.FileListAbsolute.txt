@@ -1,0 +1,5 @@
+W:\extractor\extractor\bin\Release\extractor.exe
+W:\extractor\extractor\bin\Release\extractor.pdb
+W:\extractor\extractor\obj\Release\ResolveAssemblyReference.cache
+W:\extractor\extractor\obj\Release\extractor.exe
+W:\extractor\extractor\obj\Release\extractor.pdb
